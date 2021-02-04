@@ -14,20 +14,48 @@
       Sharpie, Boeing, KFC and many others.
     </p>
     <h2 class="text-2xl text-semibold mb-4">Projects</h2>
-    <portfolio class="p-8 bg-gray-700 rounded-md shadow-md mb-4"></portfolio>
+    <project
+      class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
+      v-for="(project, i) in projectList"
+      v-bind:key="i"
+      v-bind:projectData="project"
+    ></project>
     <h2 class="text-2xl text-semibold mb-4">Resume</h2>
-    <resume class="p-8 bg-gray-700 rounded-md shadow-md mb-4"></resume>
+    <position
+      class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
+      v-for="(position, i) in positionList"
+      v-bind:key="i"
+      v-bind:positionData="position"
+    ></position>
+    <h2 class="text-2xl text-semibold mb-4">Awards</h2>
+    <award
+      class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
+      v-for="(award, i) in awardList"
+      v-bind:key="i"
+      v-bind:awardData="award"
+    ></award>
   </div>
 </template>
 
 <script>
 import "tailwindcss/tailwind.css";
-import Portfolio from "./components/Portfolio.vue";
-import Resume from "./components/Resume.vue";
+import Project from "./components/Project.vue";
+import Position from "./components/Position.vue";
+import Award from "./components/Award.vue";
+import portfolio from "@/assets/portfolio.json";
+import resume from "@/assets/resume.json";
 export default {
+  data() {
+    return {
+      projectList: portfolio.projects,
+      positionList: resume.positions,
+      awardList: resume.awards,
+    };
+  },
   components: {
-    Resume,
-    Portfolio,
+    Position,
+    Project,
+    Award,
   },
 };
 </script>

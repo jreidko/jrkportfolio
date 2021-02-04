@@ -1,6 +1,6 @@
 # jrk-portfolio
 
-## A vuejs tailwindxcss portfolio website
+## A vuejs tailwindcss portfolio website
 ```
 npm install
 npm run serve
