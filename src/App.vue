@@ -13,21 +13,21 @@
       MSNBC, American Airlines, Discover Card, Anheuser-Busch, State Farm, Dow,
       Sharpie, Boeing, KFC and many others.
     </p>
-    <h2 class="text-2xl text-semibold mb-4">Projects</h2>
+    <h2 class="text-2xl text-semibold mb-4 text-white">Projects</h2>
     <project
       class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
       v-for="(project, i) in projectList"
       v-bind:key="'a' + i"
       v-bind:projectData="project"
     ></project>
-    <h2 class="text-2xl text-semibold mb-4">Resume</h2>
+    <h2 class="text-2xl text-semibold mb-4 text-white">Positions</h2>
     <position
       class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
       v-for="(position, i) in positionList"
       v-bind:key="'b' + i"
       v-bind:positionData="position"
     ></position>
-    <h2 class="text-2xl text-semibold mb-4">Awards</h2>
+    <h2 class="text-2xl text-semibold mb-4 text-white">Awards</h2>
     <award
       class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
       v-for="(award, i) in awardList"
