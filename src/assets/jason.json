@@ -1,6 +1,6 @@
 {
   "name": "Jason Koerner",
-  "description": "I'm a user experience and product design professional with extensive interaction design, branding, and front end technical skills. I have designed healthcare, and commercial real estate software, and digital branding for clients that include Boeing, Kraft, State Farm, and American Airlines.",
+  "description": "I'm a user experience and product design professional. I've designed healthcare, and commercial real estate software, and developed digital branding for clients that include Boeing, Kraft, State Farm, and American Airlines.",
   "projects": [
     {
       "client": "Apervita",
@@ -125,53 +125,58 @@
   ],
   "positions": [
     {
-      "postion": "Senior UX Designer / Visual Design Lead",
+      "position": "Senior UX Designer / Visual Design Lead",
       "dates": "10/15 – Present",
       "company": "Apervita",
-      "description": "Building a visual design practice within the UX team and contribute extensively to all UX and UI aspects of the Apervita platform.",
-      "aside": "As Visual Design Lead, create, manage, and contribute to the design system and pattern library. As a Senior UX Designer, lead UX projects and initiatives."
+      "description": "Apervita is a platform-as-a-service (PaaS) for healthcare organizations to create, measure and share data and automation that enable value based medicine. I established, maintained, and evolved the design system for our complete suite of internal and external facing tools. I worked with The Joint Commission to design and implement the first self-service, clinical quality reporting tool that is now used by over 4000 hospitals to maintain their year-to-year accreditations. I collaborated with C-Level stakeholders in product design and strategy through several pivots."
     },
     {
-      "postion": "Creative Director",
+      "position": "Product, User Experience, Design, and Development",
+      "dates": "12/2010 – Present",
+      "company": "Consulting",
+      "description": "Architected, designed, and built the Location-IQ and RentDesk applications for commercial real estate brokerage industry. Location-IQ is a platform to construct, deploy and analyze customer surveys for trade area and demographic insights. RentDesk is a CRM, BI, and collaboration tools for retail broker teams."
+    },
+    {
+      "position": "Creative Director",
       "dates": "8/01 – 9/04 & 5/06 – 8/15",
       "company": "FCB / DraftFCB",
-      "description": "Leading teams in concepting and implementing interactive experiences across multiple brands as well as contributing extensively to new business initiatives.",
-      "aside": "Clients include: Valspar Paint, Boeing, Kraft, BlueCross of Florida, Applebees, Circuit City, The Humane Society, Hampton Inn, Dow Chemical Company, Sharpie, SCJohnson, and Diners Club International."
+      "description": "Lead creative teams concepting and implementing interactive experiences for multiple fortune 500 brands as well as contributing extensively to new business initiatives.",
+      "aside": "Clients include: Boeing, Kraft, BlueCross of Florida, Applebees, Circuit City, The Humane Society, Hampton Inn, Dow Chemical Company, Valspar Paint, Sharpie, SCJohnson, Diners Club International."
     },
     {
-      "postion": "Associate Creative Director",
+      "position": "Associate Creative Director",
       "dates": "9/04 – 5/06",
       "company": "Tribal DDB",
-      "description": "Lead a multidisciplinary team in the concept, design and execution of interactive marketing and communications for State Farm Insurance.",
-      "aside": "Clients include: State Farm, additionally contributing to work on Tropicana, Bud Select and Bud Light."
+      "description": "Lead a multidisciplinary team in the concept, design and execution of interactive marketing and communications for State Farm Insurance. Our team collaborated and consulted extensively with our DDB partners to create a cohesive cross channel marketing program for State Farm’s nearly quarter-billion dollar yearly ad spend.",
+      "aside": "Clients include: State Farm, Tropicana, Bud Select, Bud Light."
     },
     {
-      "postion": "Founding Partner",
+      "position": "Founding Partner",
       "dates": "3/99 – 1/01",
       "company": "Schema Studios",
-      "description": "As a founding partner, day to day duties included creative direction, user experience, design and project & account management. As director of operations, oversight of all aspects of business administration, planning and accounting.",
-      "aside": "Clients include: Marmot Outdoor Gear, Musician.com, WholeFoods.com, WholePeople.com, Octagon Trading Group, and Corona Music."
+      "description": "We opened Schema Studios to work on design driven projects enabled by close client collaboration. Day to day duties included creative direction, user experience, design and project & account management. As director of operations, oversight of all aspects of business administration, planning and accounting.",
+      "aside": "Clients include: Marmot Outdoor Gear, Musician.com, WholeFoods.com, WholePeople.com, Octagon Trading Group, Corona Music."
     },
     {
-      "postion": "Art Director",
+      "position": "Art Director",
       "dates": "11/96 – 4/99",
       "company": "The Leap Partnership / Quantum Leap",
-      "description": "Extensive web design for sites, online promotions and online marketing programs. Concept, design and creation of online advertising campaigns. Design and development of motion graphics for CDRoms and custom presentation applications.",
-      "aside": "Clients include: USRobotics, FTD, American Airlines, MSNBC, Nike, Encyclopedia Britannica, DirecTV/Major League Baseball, and CBS Sportsline."
+      "description": "Designed websites, online advertising campaigns, and digital tools for clients that were entering the digital space at scale. We created an online promotion that gave away over 3000 USRobotics 56k Modems, a dynamic presentation generating tool for Niketown, and a website with flight planning and  booking tools for American Airlines.",
+      "aside": "Clients include: USRobotics, FTD, American Airlines, MSNBC, Nike, Encyclopedia Britannica, DirecTV/Major League Baseball, CBS Sportsline."
     },
     {
-      "postion": "Art Director",
+      "position": "Art Director",
       "dates": "4/96 – 10/96",
       "company": "DDB Needham – The Works",
-      "description": "Design and art direction",
-      "aside": "Clients including McDonald’s, Anheuser-Busch Theme Parks, Tyson Chicken, Discover Card."
+      "description": "Concept and design work on a range of direct marketing programs for fortune 500 clients.",
+      "aside": "Clients include: McDonald’s, Anheuser-Busch Theme Parks, Tyson Chicken, Discover Card."
     },
     {
-      "postion": "Junior Art Director",
+      "position": "Junior Art Director",
       "dates": "10/92 – 4/94",
       "company": "Dimeo Rosen Partners",
-      "description": "Administrated, maintained and troubleshooted all Macintosh computer operations and network communications. Assisted art directors with concept design and production of print marketing materials.",
-      "aside": "Clients include: The Score Sportsradio, Chicago Bears, Leader Communications, WMAQ News Radio, Chicago White Sox, Burke Homes, Cobra Electronics, Thorspring Icelandic Spring Water, Hoffman Homes, Fair Muffler, Allied Pickfords Van Lines."
+      "description": "Concept design and production of print marketing materials for a range of clients. Assisted in all parts of the creative process, from concepting and presenting ideas to key-lining and trafficking creative materials",
+      "aside": "Clients include: The Chicago Bears, Chicago White Sox, WMAQ News Radio, The Score Sports Radio, Fair Muffler, Allied Pickfords Van Lines, Leader Communications, Burke Homes, Thorspring Icelandic Spring Water, Hoffman Homes."
     }
   ],
   "awards": [
@@ -190,48 +195,48 @@
   "thingiverse": [
     {
       "title": "Rotary Tool Handle",
-      "url": "http://jreidko.com",
-      "description": "This is a model and attachment scheme for a rotary grinding tool (like a Dremel). If you have a spare motor and a couple of paddle switches this model may be way to turn those items into a usable bench tool. More likely, however, you might find this model instructive for basing your own design on. The attachement scheme here is a 'hat' that can be deformed to snap-fit into a matching slot on the tool head piece. I've used this to make various sanding and grinding heads that i can swap in and out as i need to."
+      "url": "https://www.thingiverse.com/thing:4768703",
+      "description": "This is a model and attachment scheme for a rotary grinding tool (like a Dremel) that uses a small dc motor and two limit / lever micro switches.cI harvested some motors and a handful of limit switches from an off-brand roomba to incorporate into this simple rotary grinding tool that i use to post process printed models.<br />The attachment scheme here is a 'hat' that can be deformed to snap-fit into a matching slot on the tool head piece. I've used this to make various sanding and grinding heads that i can swap in and out as i need to.<br />If you have a spare motor and a switch this model may be a way to turn those items into a usable bench tool. More likely, however, you might find this model instructive for basing your own design on.<br />Rotary Grinding Tool features<br />Removable / swappable toolheads<br />Tool heads can be any shape<br />Snap fit between tool head and motor mount"
     },
     {
       "title": "Pocket Operator Trigger POTR",
-      "url": "http://jreidko.com",
-      "description": "The incredible and incredibly fun to play pocket operator by Teenage Engineering is a great musical instument. Because the 'record' mode reqires you to hold down the write button, I found it difficult to both hold and play the Pocket Operator at the same time. You sorta need to put it down so you can se one hand to press the write button and then the other to tap the keys. Thoe POTR has a lever that you can actuate with your fingers while you play the keys with your thumbs. In this way you can hold the Pocket Operator and also press the write button without limiting you ability to play all the keys with your thumbs. Now that you can walk around while you shred your electro-beats, your going to wantsome way to share the insanity. The integrated phone holder points your phone right at the Pocket Operator and keeps it there so you can rock on and on while also capturing the ear soup."
+      "url": "https://www.thingiverse.com/thing:4768698",
+      "description": "The incredibly fun to play Pocket Operator by Teenage Engineering is an awesome little sound machine. This model is a case, a trigger to press the write button, and a phone attachment arm.<br />I wanted to find a way to play the PO keys with my thumbs while I was holding down the write button in the bottom right corner.<br />The POTR has a lever that you can actuate with your fingers while you play the sound keys with your thumbs. In this way you can hold the Pocket Operator and also press the write button.<br />Now that you can walk around while you shred your electro-beats, you're going to want some way to share the insanity. The integrated phone holder attachment arm points your phone right at the Pocket Operator and keeps it there so you can rock on and on while also capturing the ear soup on video.<br />The POTR has several features:<br />Write button trigger / presser<br />Phone attachment with universal phone clamp<br />Extra batteries storage<br />Inserts for bolts to add weight"
     },
     {
-      "title": "Pagoda Bird Houses",
-      "url": "http://jreidko.com",
-      "description": "This is a mpdified version of the great birdhouse by SO ANS SO. I loved the Pagoda look but wanted bigger doors and a different kind of perch for the birds. This model simplifies some of the original design and turns the model into a four piece print."
+      "title": "Pagoda Bird House",
+      "url": "https://www.thingiverse.com/thing:4768696",
+      "description": "This is a remix of tomatohead's great Birdhouse Pagoda Style https://www.thingiverse.com/thing:106401<br />I loved the Pagoda look but wanted bigger doors and a different kind of perch for the birds. This model simplifies some of the original design and turns the model into a four piece print.<br />This version of tomatohead's model is four pieces. The body has small holes in the floor to allow for drainage, The larger roof A has a recessed pentagon to receive the base. The second roof B just sits on top of the first and the mast is inserted through the hole in roof B and then glued into the mast hole in roof A. I've found the roof does not need to be glued into the roof A and will stay attached even hanging. This might be preferable if you want to be able to open it up to add seed, etc."
     },
     {
       "title": "Low Polygon Mask Refactor",
-      "url": "http://jreidko.com",
-      "description": "It's impossbile to describe"
+      "url": "https://www.thingiverse.com/thing:4768695",
+      "description": "This is a remix of cporto's Low Polygon Mask https://www.thingiverse.com/thing:1097497<br />Sometimes you just need to give the gpu a rest and reduce your mesh detail. I wanted to make this model more consistently thick and add some slots for a strap.<br />In the process I also added a small curved piece to the temple on the inside to hold the mask slightly further away from the eyes. You can add some padding to this for comfort.<br />Printing this model upside down improved the results on my Ender-3. When i print this model right side up the last portion of the forehead had to much overhang and was delaminating.<br />Lucky Strike extra, I had a print detach from the build plate a third of the way through. I think the result makes a important statement about a lot of things that i find here on Thingiverse."
     },
     {
       "title": "Harry Potter Hermione Ron",
-      "url": "http://jreidko.com",
-      "description": "I wanted to print"
+      "url": "https://www.thingiverse.com/thing:4768692",
+      "description": "This is a remix of Peter3dmaker's Harry Potter characters https://www.thingiverse.com/thing:3112226<br />This Harry Potter, Ron Weasley, Hermione Granger model is cut into 2 pieces and has slightly thicker wands to make it easier to print on a FDM machine.<br />By cleaning up the mesh, making the wands thicker and splitting it near the shoulders, I was able to print this successfully on my Ender 3 Pro with only minimal supports for Ron's hoodie and chin. I've also cleaned up the feet to make all three figures share a flat surface."
     },
     {
-      "title": "Ender 3 Carriage Plate Boom",
-      "url": "http://jreidko.com",
-      "description": "A boom attachment sized to fit on the Ender 3 Pro y carriage. This is designed to hang off the front of the y carriage plate and is mounted on the leveling bolts. There are two models, one is a simpler lighter weight version and one is intended to be much stiffer. The bolt recesses make room for the leveling springs"
+      "title": "Ender 3 Y Carriage Plate Boom",
+      "url": "https://www.thingiverse.com/thing:4768685",
+      "description": "A boom attachment sized to mount on the Ender 3 Pro Y carriage.<br />This is designed to hang off the front of the y carriage plate and is mounted on the leveling bolts.<br />There are two models, one is a simpler lighter weight version and one is intended to be much stiffer. The bolt recesses make room for the leveling springs<br />It's possible that the most useful part of this model will be the carriage plate reference and workable mounting holes. There is a blender model included to potentially make it easier to make your own thing. use the model."
     },
     {
       "title": "Ear Saver Notre Dame",
-      "url": "http://jreidko.com",
-      "description": "Ear Saver for the game day if you went to Michigan. Go Blue!"
+      "url": "https://www.thingiverse.com/thing:4768678",
+      "description": "'Ear Savers' hold the elastic ear bands away from your ears, relieving discomfort for some.<br />For the game day if you're going to South Bend. Go Irish!<br /> I had good results with a filament swap at 1.3 / 1.4 millimeters to make the logo or script really stand out"
     },
     {
       "title": "Ear Saver Michigan",
-      "url": "http://jreidko.com",
-      "description": "Ear Saver for the game day if you're going to South Bend. Go Irish!"
+      "url": "https://www.thingiverse.com/thing:4768677",
+      "description": "'Ear Savers' hold the elastic ear bands away from your ears, relieving discomfort for some.<br />Ear Saver for the game day if you went to Michigan. Go Blue!<br />I had good results with a filament swap at 1.3 / 1.4 millimeters to make the logo or script really stand out."
     },
     {
       "title": "Ear Saver Curved",
-      "url": "http://jreidko.com",
-      "description": "For a friend of ours that is early childhood education has been working through the pandemic and wearing a mask most days all day. These 'Ear Savers' hold the elastic ear bands away from your ears, releaving some discomfort for some. These have printed really well in both pla and tpu"
+      "url": "https://www.thingiverse.com/thing:4768676",
+      "description": "'Ear Savers' hold the elastic ear bands away from your ears, relieving discomfort for some. This version is designed with no sharp edges and four different decorative patterns.<br />A friend of ours in early childhood education has been working through the pandemic and wearing a mask most days all day. She asked if i could print her some ear savers for her and the other teachers, so i created these.<br />These have printed really well in both PLA and TPU"
     }
   ]
 }

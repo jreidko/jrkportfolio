@@ -1,12 +1,8 @@
 <template>
   <div class="p-12 bg-gray-900 text-gray-400">
     <h1 class="text-3xl text-semibold mb-4 text-white">Jason Koerner</h1>
-    <h3 class="text-1xl text-semibold mb-6 text-gray-400">
-      Hello! I'm a user experience and product design professional with
-      extensive interaction design, branding, and front end technical skills. I
-      have designed healthcare, and commercial real estate software, and digital
-      branding for clients that include Boeing, Kraft, State Farm, and American
-      Airlines.
+    <h3 class="text-1xl text-semibold mb-6 max-w-screen-sm text-gray-400">
+      Hello! {{ jason.description }}
     </h3>
     <p class="flex flex-row">
       <a
@@ -99,12 +95,13 @@ import "tailwindcss/tailwind.css";
 import Project from "./components/Project.vue";
 import Position from "./components/Position.vue";
 import Award from "./components/Award.vue";
-import jason from "@/assets/jason.json";
+import jason from "./assets/jason.json";
 export default {
   data() {
     return {
       portView: false,
-      projectList: jason.projects,
+      resumeView: false,
+      jason: jason,
       positionList: jason.positions,
       awardList: jason.awards,
     };
