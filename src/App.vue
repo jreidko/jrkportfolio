@@ -16,7 +16,7 @@
         </a>
         <a
           href="#"
-          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100"
+          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100 hidden"
           @click="portView = !portView"
           v-class="{ 'bg-white': portView }"
           v-bind:class="{ 'opacity-100': portView }"
@@ -29,7 +29,7 @@
           >Contact</a
         >
       </div>
-      <div class="mb-6 inline-block">
+      <div class="mb-8 inline-block">
         <a href="https://www.linkedin.com/in/jreidko/" target="_blank">
           <svg
             class="inline-block mr-6 fill-current text-white opacity-30 hover:opacity-100 relative bottom-1"
@@ -83,15 +83,16 @@
           </svg>
         </a>
       </div>
-      <div v-if="resumeView">
+      <div v-if="resumeView" class="h-full overflow-scroll">
         <position
-          class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
+          class="mb-6"
           v-for="(position, i) in positionList"
           v-bind:key="'b' + i"
           v-bind:positionData="position"
         ></position>
+        <div class="text-gray-50 font-semibold text-lg mt-2 mb-2">Awards</div>
         <award
-          class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
+          class="px-2 py-1 mr-4 mb-4 rounded-md text-black bg-white opacity-60"
           v-for="(award, i) in awardList"
           v-bind:key="'c' + i"
           v-bind:awardData="award"
@@ -99,8 +100,8 @@
         <a
           href="/jason_koerner_resume.pdf"
           target="_blank"
-          class="hover:text-white"
-          >For a PDF version click here</a
+          class="hover:text-white block mt-4"
+          >For a PDF version of my resume click here.</a
         >
       </div>
       <div v-if="portView">
@@ -113,7 +114,7 @@
       </div>
     </div>
     <div
-      class="bg-cover bg-center absolute top-0 left-0 w-full h-full opacity-10"
+      class="bg-cover bg-center fixed top-0 left-0 w-full h-full opacity-10"
       v-bind:style="{ backgroundImage: 'url(' + bgsImgURL + ')' }"
       style="z-index: -1000"
     ></div>

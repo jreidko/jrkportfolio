@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <pre>{{ this.awardData }}</pre>
+  <div class="inline-block">
+    {{ this.awardData }}
   </div>
 </template>
 
