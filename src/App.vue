@@ -1,5 +1,5 @@
 <template>
-  <div class="p-12 bg-gray-900 text-gray-400">
+  <div class="p-12 text-gray-400 h-full overflow-scroll">
     <h1 class="text-3xl text-semibold mb-4 text-white">Jason Koerner</h1>
     <h3 class="text-1xl text-semibold mb-6 max-w-screen-sm text-gray-400">
       Hello! {{ jason.description }}
@@ -72,6 +72,8 @@
         v-bind:key="'a' + i"
         v-bind:projectData="project"
       ></project>
+    </div>
+    <div v-if="resumeView">
       <h2 class="text-2xl text-semibold mb-4 text-white">Positions</h2>
       <position
         class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
@@ -87,6 +89,10 @@
         v-bind:awardData="award"
       ></award>
     </div>
+    <div
+      class="bg-cover bg-center absolute top-0 left-0 w-full h-full opacity-10"
+      v-bind:style="{ backgroundImage: 'url(' + bgsImgURL + ')' }"
+    ></div>
   </div>
 </template>
 
@@ -106,6 +112,12 @@ export default {
       awardList: jason.awards,
     };
   },
+  computed: {
+    bgsImgURL() {
+      var rNum = Math.floor(Math.random() * 6) + 1;
+      return "/bgs/00" + rNum + ".jpg";
+    },
+  },
   components: {
     Position,
     Project,
@@ -113,3 +125,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.bgs-image {
+  z-index: -100;
+}
+</style>
