@@ -1,6 +1,7 @@
 {
   "name": "Jason Koerner",
   "description": "I'm a user experience and product design professional. I've designed healthcare, and commercial real estate software, and developed digital branding for clients that include Boeing, Kraft, State Farm, and American Airlines.",
+  "email": "jreidko@gmail.com",
   "projects": [
     {
       "client": "Apervita",
@@ -139,7 +140,7 @@
     {
       "position": "Creative Director",
       "dates": "8/01 – 9/04 & 5/06 – 8/15",
-      "company": "FCB / DraftFCB",
+      "company": "Foote, Cone & Belding",
       "description": "Lead creative teams concepting and implementing interactive experiences for multiple fortune 500 brands as well as contributing extensively to new business initiatives.",
       "aside": "Clients include: Boeing, Kraft, BlueCross of Florida, Applebees, Circuit City, The Humane Society, Hampton Inn, Dow Chemical Company, Valspar Paint, Sharpie, SCJohnson, Diners Club International."
     },
@@ -180,11 +181,11 @@
     }
   ],
   "awards": [
-    "Art directors Club",
-    "Webby",
-    "Communication Arts",
-    "Ad-Tech",
+    "Art Directors Club",
     "FWA",
+    "Communication Arts",
+    "Webby",
+    "Ad-Tech",
     "ECHO",
     "Tempo"
   ],
