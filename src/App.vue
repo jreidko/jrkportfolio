@@ -6,7 +6,7 @@
     </h3>
     <p class="flex flex-row">
       <a
-        class="mr-4"
+        class="mr-4 z-10"
         href="https://www.linkedin.com/in/jreidko/"
         target="_blank"
       >
@@ -24,7 +24,7 @@
         </svg>
       </a>
       <a
-        class="mr-4"
+        class="mr-4 z-10"
         href="https://www.instagram.com/s_p_a_c_e_and_nation/"
         target="_blank"
       >
@@ -44,7 +44,7 @@
         </svg>
       </a>
       <a
-        class="mr-4"
+        class="mr-4 z-10"
         href="https://www.thingiverse.com/spaceandnation/designs"
         target="_blank"
       >
