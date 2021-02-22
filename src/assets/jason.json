@@ -1,6 +1,6 @@
 {
   "name": "Jason Koerner",
-  "description": "I'm a user experience and product design professional. I've designed healthcare, and commercial real estate software, and developed digital branding for clients that include Boeing, Kraft, State Farm, and American Airlines.",
+  "description": "I’m a user experience and product design professional with a recent focus on healthcare, and commercial real estate products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
   "email": "jreidko@gmail.com",
   "projects": [
     {
@@ -28,23 +28,23 @@
         ],
         "videos": [
           {
-            "location": "https://youtu.be/JyXmVikyp68",
+            "url": "https://youtu.be/JyXmVikyp68",
             "name": "Gluten Replacement"
           },
           {
-            "location": "https://youtu.be/A0NkIsnNKHo",
+            "url": "https://youtu.be/A0NkIsnNKHo",
             "name": "Wind Energy"
           },
           {
-            "location": "https://youtu.be/MIvptBkQjl0",
+            "url": "https://youtu.be/MIvptBkQjl0",
             "name": "Quiet Trains"
           },
           {
-            "location": "https://youtu.be/8TqUq5Yan_w",
+            "url": "https://youtu.be/8TqUq5Yan_w",
             "name": "Smart Devices"
           },
           {
-            "location": "https://youtu.be/X-RFsqApMqw",
+            "url": "https://youtu.be/X-RFsqApMqw",
             "name": "Electric Vehicles"
           }
         ]
@@ -60,7 +60,7 @@
         ],
         "videos": [
           {
-            "location": "https://youtu.be/mlItlrWfGp0",
+            "url": "https://youtu.be/mlItlrWfGp0",
             "name": "Hopeiary Site Cut Scenes"
           }
         ]
@@ -77,19 +77,19 @@
         ],
         "videos": [
           {
-            "location": "https://youtu.be/4VsDmJmsFv0",
+            "url": "https://youtu.be/4VsDmJmsFv0",
             "name": "A City In the Desert"
           },
           {
-            "location": "https://youtu.be/ssyUhG6tPzk",
+            "url": "https://youtu.be/ssyUhG6tPzk",
             "name": "Farming the Sun"
           },
           {
-            "location": "https://youtu.be/wsYODmvD390",
+            "url": "https://youtu.be/wsYODmvD390",
             "name": "From Here to There"
           },
           {
-            "location": "https://youtu.be/P7-uj6w7HuY",
+            "url": "https://youtu.be/P7-uj6w7HuY",
             "name": "A GRowing Responsibility"
           }
         ]
@@ -103,7 +103,7 @@
         "images": ["http://jreidko.com/wp-images/pothv_site_fr01_full.jpg"],
         "videos": [
           {
-            "location": "https://youtu.be/0SBPI1acmzE",
+            "url": "https://youtu.be/0SBPI1acmzE",
             "name": "The Power of the Human Voice Case Study"
           }
         ]
@@ -116,7 +116,7 @@
       "assets": {
         "videos": [
           {
-            "location": "https://youtu.be/U2YmKqN1reU",
+            "url": "https://youtu.be/U2YmKqN1reU",
             "name": "Valspar Color Sketch Concept"
           }
         ]
@@ -135,7 +135,7 @@
       "position": "Product, User Experience, Design, and Development",
       "dates": "12/2010 – Present",
       "company": "Consulting",
-      "description": "Architected, designed, and built the Location-IQ and RentDesk applications for commercial real estate brokerage industry. Location-IQ is a platform to construct, deploy and analyze customer surveys for trade area and demographic insights. RentDesk is a CRM, BI, and collaboration tools for retail broker teams."
+      "description": "Architected, designed, and built the Location-IQ and RentDesk applications for commercial real estate brokerage industry. Location-IQ is a platform to construct, deploy and analyze customer surveys for trade area and demographic insights. RentDesk is a CRM, BI, and collaboration tool for retail broker teams."
     },
     {
       "position": "Creative Director",
@@ -182,14 +182,15 @@
   ],
   "awards": [
     "Art Directors Club",
-    "FWA",
     "Communication Arts",
+    "FWA",
     "Webby",
     "Ad-Tech",
     "ECHO",
     "Tempo"
   ],
   "instructables": {
+    "title": "Home Made BFO Metal Detector",
     "url": "https://www.instructables.com/Home-Made-BFO-metal-detector-ADDENDUM/",
     "description": "A BFO metal detector is a 'beat-frequency oscillator' type metal detector. This type of metal detector uses two wire coils, one which is large (detector coil) and one which is small (reference coil). The two wire coils are each connected to capacitors to create two circuits that oscillate. When everything is working correctly, the two coils, while being different sizes, are intended to have the same inductance. In use, the presence of metal near the detector coil changes it's inductance. This causes the two coils to have a different inductance, and the electronic circuit amplifies this difference and makes it audible through the speaker in the circuit. When you hear tones coming from the speaker you know there's some metal around."
   },
