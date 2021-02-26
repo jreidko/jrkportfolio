@@ -5,123 +5,319 @@
   "projects": [
     {
       "client": "Apervita",
-      "name": "Cloud Applications for Value Based Medicine",
-      "description": "To come."
+      "name": "The Joint Commission Direct Data Submission Platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "assets": {
+        "images": [
+          "APERVITA_DDSP_001.jpg",
+          "APERVITA_DDSP_002.jpg",
+          "APERVITA_DDSP_003.jpg",
+          "APERVITA_DDSP_004.jpg",
+          "APERVITA_DDSP_005.jpg",
+          "APERVITA_DDSP_006.jpg",
+          "APERVITA_DDSP_007.png",
+          "APERVITA_DDSP_008.png",
+          "APERVITA_DDSP_009.jpg",
+          "APERVITA_DDSP_010.jpg",
+          "APERVITA_DDSP_011.jpg",
+          "APERVITA_DDSP_012.jpg",
+          "APERVITA_DDSP_013.jpg",
+          "APERVITA_DDSP_014.jpg",
+          "APERVITA_DDSP_015.jpg",
+          "APERVITA_DDSP_016.jpg",
+          "APERVITA_DDSP_017.jpg",
+          "APERVITA_DDSP_018.jpg",
+          "APERVITA_DDSP_019.jpg",
+          "APERVITA_DDSP_020.jpg",
+          "APERVITA_DDSP_021.jpg",
+          "APERVITA_DDSP_022.jpg",
+          "APERVITA_DDSP_023.jpg",
+          "APERVITA_DDSP_024.jpg",
+          "APERVITA_DDSP_025.jpg",
+          "APERVITA_DDSP_026.jpg",
+          "APERVITA_DDSP_027.jpg",
+          "APERVITA_DDSP_028.jpg",
+          "APERVITA_DDSP_029.png",
+          "APERVITA_DDSP_030.png",
+          "APERVITA_DDSP_031.png",
+          "APERVITA_DDSP_032.png",
+          "APERVITA_DDSP_033.png"
+        ]
+      }
+    },
+
+    {
+      "client": "Apervita",
+      "name": "CQL Electromic Quality Measure Build Tool",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "assets": {
+        "images": [
+          "APERVITA_CQLBUILDER_001.png",
+          "APERVITA_CQLBUILDER_002.png",
+          "APERVITA_CQLBUILDER_003.jpg",
+          "APERVITA_CQLBUILDER_004.jpg",
+          "APERVITA_CQLBUILDER_005.jpg",
+          "APERVITA_CQLBUILDER_006.jpg",
+          "APERVITA_CQLBUILDER_007.jpg",
+          "APERVITA_CQLBUILDER_008.jpg",
+          "APERVITA_CQLBUILDER_009.jpg",
+          "APERVITA_CQLBUILDER_010.jpg",
+          "APERVITA_CQLBUILDER_011.jpg",
+          "APERVITA_CQLBUILDER_012.jpg",
+          "APERVITA_CQLBUILDER_013.jpg",
+          "APERVITA_CQLBUILDER_014.jpg",
+          "APERVITA_CQLBUILDER_015.jpg",
+          "APERVITA_CQLBUILDER_016.jpg",
+          "APERVITA_CQLBUILDER_017.jpg",
+          "APERVITA_CQLBUILDER_018.jpg",
+          "APERVITA_CQLBUILDER_019.jpg",
+          "APERVITA_CQLBUILDER_020.jpg",
+          "APERVITA_CQLBUILDER_021.jpg",
+          "APERVITA_CQLBUILDER_022.jpg",
+          "APERVITA_CQLBUILDER_023.jpg",
+          "APERVITA_CQLBUILDER_024.jpg",
+          "APERVITA_CQLBUILDER_025.jpg",
+          "APERVITA_CQLBUILDER_026.jpg",
+          "APERVITA_CQLBUILDER_027.jpg",
+          "APERVITA_CQLBUILDER_028.png",
+          "APERVITA_CQLBUILDER_029.png",
+          "APERVITA_CQLBUILDER_030.jpg",
+          "APERVITA_CQLBUILDER_031.jpg"
+        ]
+      }
     },
     {
-      "client": "RentDesk",
-      "name": "RentDesk Commercial Realestate Platform",
-      "description": "Collect, track, and present leasable space for commercial and retail tenants."
+      "client": "Apervita",
+      "name": "Clinical Pathway Guidelines",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+      "assets": {
+        "images": [
+          "APERVITA_CPG_001_diag.jpg",
+          "APERVITA_CPG_002_diag.jpg",
+          "APERVITA_CPG_003_diag.jpg",
+          "APERVITA_CPG_004_diag.jpg",
+          "APERVITA_CPG_005_diag.jpg",
+          "APERVITA_CPG_001_timeline.jpg",
+          "APERVITA_CPG_002_timeline.jpg",
+          "APERVITA_CPG_003_timeline.jpg",
+          "APERVITA_CPG_004_timeline.jpg",
+          "APERVITA_CPG_005_timeline.jpg",
+          "APERVITA_CPG_001_build.jpg",
+          "APERVITA_CPG_002_build.jpg",
+          "APERVITA_CPG_003_build.jpg",
+          "APERVITA_CPG_004_build.jpg",
+          "APERVITA_CPG_005_build.jpg"
+        ]
+      }
+    },
+    {
+      "client": "Retailer.Space",
+      "name": "Commercial Real Estate Brokerage Platform",
+      "description": "Retailer.Space is a retail real estate solution focused on canvassing, availability management, and client communication. It is designed to produce essential deliverables such as market reports and both printed and virtual tour books.",
+      "assets": {
+        "images": [
+          "RENTDESK_001.jpg",
+          "RENTDESK_002.jpg",
+          "RENTDESK_003.jpg",
+          "RENTDESK_004.jpg",
+          "RENTDESK_005.jpg",
+          "RENTDESK_006.jpg",
+          "RENTDESK_007.jpg",
+          "RENTDESK_008.jpg",
+          "RENTDESK_009.jpg",
+          "RENTDESK_010.jpg",
+          "RENTDESK_011.jpg",
+          "RENTDESK_012.jpg",
+          "RENTDESK_013.jpg",
+          "RENTDESK_014.jpg",
+          "RENTDESK_015.jpg",
+          "RENTDESK_016.jpg",
+          "RENTDESK_017.jpg",
+          "RENTDESK_018.jpg",
+          "RENTDESK_019.jpg",
+          "RENTDESK_020.jpg"
+        ]
+      }
     },
     {
       "client": "Location I.Q.",
-      "name": "Cloud Based In Store Survey Application",
-      "description": "Location I.Q. is an online service that helps retailers gather and analyze customer information. The tool allows the creation of customized surveys which are deploy in-store on a tablet device. Location I.Q. includes a number of tools to generate reports, map trade areas, chart questions and export data. With a focus on new site selection, Location I.Q. was developed as an integrated retail consulting tool. The service was architected, designed and built by me."
-    },
-    {
-      "client": "Dow",
-      "name": "Solutionism",
+      "name": "Cloud Based In-Store Survey Application",
+      "description": "The Location I.Q. application helps retailers gather and analyze customer demographic information. Create customized surveys and deploy in-store on a tablet device. Use the built in analytic tools to generate reports, map trade areas, chart questions and export data. With a focus on new site selection, Location I.Q. was developed as an integrated retail consulting tool. The service was architected, designed and built by me.",
       "assets": {
         "images": [
-          "http://jreidko.com/wp-images/port2011_dowsolutionism_dowhome.jpg",
-          "http://jreidko.com/wp-images/port2011_dowsolutionism_sectionhome.jpg"
-        ],
-        "videos": [
-          {
-            "url": "https://youtu.be/JyXmVikyp68",
-            "name": "Gluten Replacement"
-          },
-          {
-            "url": "https://youtu.be/A0NkIsnNKHo",
-            "name": "Wind Energy"
-          },
-          {
-            "url": "https://youtu.be/MIvptBkQjl0",
-            "name": "Quiet Trains"
-          },
-          {
-            "url": "https://youtu.be/8TqUq5Yan_w",
-            "name": "Smart Devices"
-          },
-          {
-            "url": "https://youtu.be/X-RFsqApMqw",
-            "name": "Electric Vehicles"
-          }
+          "LOCATIONIQ_001.png",
+          "LOCATIONIQ_002.png",
+          "LOCATIONIQ_003.jpg",
+          "LOCATIONIQ_004.jpg",
+          "LOCATIONIQ_005.jpg",
+          "LOCATIONIQ_006.jpg",
+          "LOCATIONIQ_007.jpg",
+          "LOCATIONIQ_008.jpg",
+          "LOCATIONIQ_009.jpg",
+          "LOCATIONIQ_010.jpg",
+          "LOCATIONIQ_011.jpg"
         ]
-      },
-      "description": "Dow’s Solutionism campaign captures the idea that the more we talk together, the more we solve together. With this at it’s core, Dow Solutionism stories online aren’t a one-way conversation, but a place where this dialog comes together in a unique online and mobile destination. Each Solutionism story consists of both Dow’s contribution to the conversation addressing global mega-trends, as well as commentary from across the internet and social media."
-    },
-    {
-      "client": "Dow",
-      "name": "Hopeiary.com",
-      "assets": {
-        "images": [
-          "http://jreidko.com/wp-images/port2012_hopeiary_fr02_full.jpg"
-        ],
-        "videos": [
-          {
-            "url": "https://youtu.be/mlItlrWfGp0",
-            "name": "Hopeiary Site Cut Scenes"
-          }
-        ]
-      },
-      "description": "Dow’s sponsorship of the 2012 London Olympics featured the Planets Olympic hopeful, a topiary named Hope. This character, that came to life in TV, outdoor and print was also featured on this website were you could grow and share your own interactive animated Hopeiary. Even the planet has an Olympic dream. A greener, more sustainable Olympic Games"
-    },
-    {
-      "client": "Dow",
-      "name": "The Human Element",
-      "assets": {
-        "images": [
-          "http://jreidko.com/wp-images/dow_hu08_home_full.jpg",
-          "http://jreidko.com/wp-images/port2011_dowhu_navexp.jpg"
-        ],
-        "videos": [
-          {
-            "url": "https://youtu.be/4VsDmJmsFv0",
-            "name": "A City In the Desert"
-          },
-          {
-            "url": "https://youtu.be/ssyUhG6tPzk",
-            "name": "Farming the Sun"
-          },
-          {
-            "url": "https://youtu.be/wsYODmvD390",
-            "name": "From Here to There"
-          },
-          {
-            "url": "https://youtu.be/P7-uj6w7HuY",
-            "name": "A GRowing Responsibility"
-          }
-        ]
-      },
-      "description": "As part of Dow’s 08’/09’/10′ “Human Element” advertising campaign, we dramatically evolved the online portion by building a bridge between the television and print campaigns and the very detailed information on Dow’s corporate website. The Dow.com/HU website and online advertising consist of in-depth webfilms that tell the story of the global challenges that the world is facing and how science is working to address them"
+      }
     },
     {
       "client": "Blue Cross & Blue Sheild of Florida",
       "name": "The Power of the Human Voice",
+      "description": "Blue Cross and Blue Shield of Florida’s powerofthehumanvoice.com website was the hub of the 2008/2009 advertising campaign. The campaign was created to feature residents of Florida's health care stories and share their ideas on how health care in America can be improved. Site visitors could listen to, share, and leave a message at powerofthehumanvoice.com usaing their computer’s microphone or by calling an 800 number that is connected to the user’s session",
       "assets": {
-        "images": ["http://jreidko.com/wp-images/pothv_site_fr01_full.jpg"],
+        "images": [
+          "BCBSFL_POTHV_001.jpg",
+          "BCBSFL_POTHV_002.jpg",
+          "BCBSFL_POTHV_003.jpg",
+          "BCBSFL_POTHV_004.jpg",
+          "BCBSFL_POTHV_005.jpg",
+          "BCBSFL_POTHV_006.jpg",
+          "BCBSFL_POTHV_007.jpg",
+          "BCBSFL_POTHV_008.jpg",
+          "BCBSFL_POTHV_009.jpg",
+          "BCBSFL_POTHV_010.jpg"
+        ],
         "videos": [
           {
             "url": "https://youtu.be/0SBPI1acmzE",
+            "videoid": "0SBPI1acmzE",
             "name": "The Power of the Human Voice Case Study"
           }
         ]
-      },
-      "description": "Blue Cross and Blue Shield of Florida’s powerofthehumanvoice.com website was the hub of the Power of the Human Voice campaign. The campaign was created to encourage residents of Florida to tell their stories and share their ideas on how health care in America can be improved. The site allows visitors to leave a message via their computer’s microphone or by calling an 800 number that is connected to the user’s session. In addition to the online site, a stand-alone version of the site was created for use at out of home events across the state."
+      }
+    },
+    {
+      "client": "Dow",
+      "name": "Hopeiary.com",
+      "description": "Dow’s sponsorship of the 2012 London Olympics featured the Planets Olympic hopeful, a topiary named Hope. This character, that came to life in TV, outdoor and print was also featured on this website were you could grow and share your own interactive animated Hopeiary. Even the planet has an Olympic dream. A greener, more sustainable Olympic Games",
+      "assets": {
+        "images": [
+          "DOW_HOPEIARY_001.jpg",
+          "DOW_HOPEIARY_002.jpg",
+          "DOW_HOPEIARY_003.jpg",
+          "DOW_HOPEIARY_004.jpg",
+          "DOW_HOPEIARY_005.jpg",
+          "DOW_HOPEIARY_006.jpg",
+          "DOW_HOPEIARY_007.jpg",
+          "DOW_HOPEIARY_008.jpg"
+        ],
+        "videos": [
+          {
+            "url": "https://youtu.be/mlItlrWfGp0",
+            "videoid": "mlItlrWfGp0",
+            "name": "Hopeiary Site Walkthrough"
+          }
+        ]
+      }
+    },
+    {
+      "client": "Dow",
+      "name": "Solutionism",
+      "description": "Dow’s Solutionism campaign captures the idea that the more we talk together the more we solve together. With this at it’s core, Solutionism stories online aren’t one-way marketing messages but a place where this dialog comes together. Each Solutionism story highlights Dow’s contributions to addressing global mega-trends, aslongside commentary from across the internet.",
+      "assets": {
+        "images": [
+          "DOW_SOLUTIONISM_001.jpg",
+          "DOW_SOLUTIONISM_002.jpg",
+          "DOW_SOLUTIONISM_003.jpg"
+        ],
+        "videos": [
+          {
+            "url": "https://youtu.be/JyXmVikyp68",
+            "videoid": "JyXmVikyp68",
+            "name": "Gluten Replacement"
+          },
+          {
+            "url": "https://youtu.be/A0NkIsnNKHo",
+            "videoid": "A0NkIsnNKHo",
+            "name": "Wind Energy"
+          },
+          {
+            "url": "https://youtu.be/MIvptBkQjl0",
+            "videoid": "MIvptBkQjl0",
+            "name": "Quiet Trains"
+          },
+          {
+            "url": "https://youtu.be/8TqUq5Yan_w",
+            "videoid": "8TqUq5Yan_w",
+            "name": "Smart Devices"
+          },
+          {
+            "url": "https://youtu.be/X-RFsqApMqw",
+            "videoid": "X-RFsqApMqw",
+            "name": "Electric Vehicles"
+          }
+        ]
+      }
+    },
+    {
+      "client": "Dow",
+      "name": "The Human Element",
+      "description": "As part of Dow’s 2008’/09’/10′ “Human Element” branding campaign, we dramatically expanded the online portion. The strategy was to build a bridge between the television and print campaigns and the very detailed information on Dow’s corporate website. The Dow.com/HU website and online advertising consist of in-depth films and associated content that tell the story of the global challenges that the world is facing and how science is working to address them.",
+      "assets": {
+        "images": [
+          "DOW_HU_001.jpg",
+          "DOW_HU_002.jpg",
+          "DOW_HU_003.jpg",
+          "DOW_HU_004.jpg",
+          "DOW_HU_005.jpg",
+          "DOW_HU_006.jpg",
+          "DOW_HU_007.jpg",
+          "DOW_HU_008.jpg"
+        ],
+        "videos": [
+          {
+            "url": "https://youtu.be/4VsDmJmsFv0",
+            "videoid": "4VsDmJmsFv0",
+            "name": "A City In the Desert"
+          },
+          {
+            "url": "https://youtu.be/ssyUhG6tPzk",
+            "videoid": "ssyUhG6tPzk",
+            "name": "Farming the Sun"
+          },
+          {
+            "url": "https://youtu.be/wsYODmvD390",
+            "videoid": "wsYODmvD390",
+            "name": "From Here to There"
+          },
+          {
+            "url": "https://youtu.be/P7-uj6w7HuY",
+            "videoid": "P7-uj6w7HuY",
+            "name": "A Growing Responsibility"
+          }
+        ]
+      }
     },
     {
       "client": "Valspar",
-      "name": "Color Tools",
+      "name": "Digital Marketing & Branded Color Tools",
+      "description": "As the creative director on Valspar Paint I oversaw all digital markating for the brand. In addition to display, social and influencer programs, we created the annual color trends experience, the U.K. brand site and the Color Connect iOS app.",
       "assets": {
+        "images": [
+          "VALSPAR_COLORCONNECT_001.jpg",
+          "VALSPAR_COLORTRENDS_001.jpg",
+          "VALSPAR_COLORTRENDS_002.jpg",
+          "VALSPAR_COLORTRENDS_003.jpg",
+          "VALSPAR_COLORTRENDS_004.jpg",
+          "VALSPAR_COLORTRENDS_005.jpg",
+          "VALSPAR_COLORTRENDS_006.jpg",
+          "VALSPAR_RESERVE_001.jpg",
+          "VALSPAR_RETAILER_001.jpg",
+          "VALSPAR_RETAILER_002.jpg",
+          "VALSPAR_UK_001.jpg"
+        ],
         "videos": [
           {
+            "url": "https://youtu.be/XwXcIKpAfq4",
+            "videoid": "XwXcIKpAfq4",
+            "name": "Valspar Color Sketch Concept"
+          },
+          {
             "url": "https://youtu.be/U2YmKqN1reU",
+            "videoid": "U2YmKqN1reU",
             "name": "Valspar Color Sketch Concept"
           }
         ]
-      },
-      "description": "In addition to online advertising for Valspar Paint, I have been involved in creative direction and design for many different pieces of their digital presence, from retailer landing pages, to their annual color trends experience, to the U.K. website and their Color Connect iOS app."
+      }
     }
   ],
   "positions": [

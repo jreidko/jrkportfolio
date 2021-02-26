@@ -7,12 +7,16 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@morioh/v-lightbox": "^1.0.3",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-light-gallery": "^1.0.1",
+    "vue-masonry-gallery": "^1.1.1",
+    "vue-youtube": "^1.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

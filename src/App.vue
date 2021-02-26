@@ -16,9 +16,8 @@
         </a>
         <a
           href="#"
-          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100 hidden"
+          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100"
           @click="portView = !portView"
-          v-class="{ 'bg-white': portView }"
           v-bind:class="{ 'opacity-100': portView }"
         >
           Portfolio
@@ -105,12 +104,7 @@
         >
       </div>
       <div v-if="portView">
-        <project
-          class="p-8 bg-gray-700 rounded-md shadow-md mb-4 overflow-hidden"
-          v-for="(project, i) in projectList"
-          v-bind:key="'a' + i"
-          v-bind:projectData="project"
-        ></project>
+        <project-list />
       </div>
     </div>
     <div
@@ -123,7 +117,7 @@
 
 <script>
 import "tailwindcss/tailwind.css";
-import Project from "./components/Project.vue";
+import ProjectList from "./components/ProjectList.vue";
 import Position from "./components/Position.vue";
 import Award from "./components/Award.vue";
 import jason from "./assets/jason.json";
@@ -158,7 +152,7 @@ export default {
   },
   components: {
     Position,
-    Project,
+    ProjectList,
     Award,
   },
 };
