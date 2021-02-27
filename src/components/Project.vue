@@ -7,18 +7,23 @@
     </div>
     <div class="text-gray-400 mb-4">{{ this.projectData.description }}</div>
     <div class="flex mb-8">
-      <div v-if="projImagesComputed" class="mr-4 grid grid-cols-4">
-        <div
-          v-for="(image, i) in projImgThmbComputed"
-          v-bind:key="i"
-          class="bg-cover bg-left-top w-48 h-48"
-          v-bind:style="{ backgroundImage: 'url(' + image + ')' }"
-        ></div>
+      <div v-if="projectImages" class="mr-4">
+        <silent-box :gallery="projectImages"></silent-box>
       </div>
-      <div v-if="projVideosComputed">
-        <div v-for="(video, i) in projVideosComputed" v-bind:key="i">
+      <div v-if="projectVideosArray">
+        <div
+          v-for="(video, i) in projectVideosArray"
+          v-bind:key="i"
+          class="mb-4"
+        >
           <youtube :video-id="video"></youtube>
         </div>
+        <silent-box :gallery="images">
+          <h2 class="mb-2">Gallery</h2>
+          <template v-slot:silentbox-item="{ silentboxItem }">
+            <p>{{ silentboxItem.thumbnail }}</p>
+          </template>
+        </silent-box>
       </div>
     </div>
   </div>
@@ -28,29 +33,35 @@
 export default {
   props: ["projectData"],
   data() {
-    return {};
+    return {
+      images: [
+        {
+          src: "/port/APERVITA_DDSP_001.jpg",
+          thumbnail: "/port/APERVITA_DDSP_001_thmb.jpg",
+          thumbnailWidth: 200,
+        },
+        {
+          src: "/port/APERVITA_DDSP_002.jpg",
+          thumbnail: "/port/APERVITA_DDSP_002_thmb.jpg",
+          thumbnailWidth: 200,
+        },
+        {
+          src: "/port/APERVITA_DDSP_003.jpg",
+          thumbnail: "/port/APERVITA_DDSP_003_thmb.jpg",
+          thumbnailWidth: 200,
+        },
+      ],
+    };
   },
   computed: {
-    projImgThmbComputed() {
-      if (this.projectData.assets.images) {
-        var urlList = [];
-        this.projectData.assets.images.forEach((element) => {
-          urlList.push("/port/" + element.slice(0, -4) + "_thmb.jpg");
-        });
-        return urlList;
-      } else {
-        return false;
-      }
-    },
-    projImgThmbComputedObj() {
+    projectImages() {
       if (this.projectData.assets.images) {
         var imgObjList = [];
         this.projectData.assets.images.forEach((element) => {
           var obj = {
             src: "/port/" + element,
             thumbnail: "/port/" + element.slice(0, -4) + "_thmb.jpg",
-            thumbnailWidth: "200px",
-            thumbnailHeight: "200px",
+            thumbnailWidth: 200,
           };
           imgObjList.push(obj);
         });
@@ -59,7 +70,7 @@ export default {
         return false;
       }
     },
-    projImagesComputed() {
+    projectImagesArray() {
       if (this.projectData.assets.images) {
         var urlList = [];
         this.projectData.assets.images.forEach((element) => {
@@ -70,7 +81,7 @@ export default {
         return false;
       }
     },
-    projVideosComputed() {
+    projectVideosArray() {
       if (this.projectData.assets.videos) {
         var urlList = [];
         this.projectData.assets.videos.forEach((element) => {
