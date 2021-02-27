@@ -7,16 +7,16 @@
     </div>
     <div class="text-gray-400 mb-4">{{ this.projectData.description }}</div>
     <div class="flex mb-8">
-      <div v-if="projImages" class="w-full md:w-1/2 mr-4">
+      <div v-if="projImagesComputed" class="w-full md:w-1/2 mr-4">
         <div
           v-for="(image, i) in projImagesComputed"
           v-bind:key="i"
           class="mb-4"
         >
-          <img :src="image" class="img-fluid" :key="i" />
+          <img :src="image" class="w-64" :key="i" />
         </div>
       </div>
-      <div v-if="projVideos" class="w-full md:w-1/2">
+      <div v-if="projVideosComputed" class="w-full md:w-1/2">
         <div
           v-for="(video, i) in projVideosComputed"
           v-bind:key="i"
@@ -33,25 +33,18 @@
 export default {
   props: ["projectData"],
   data() {
-    return {
-      projImages: [
-        "/port/APERVITA_DDSP_001.jpg",
-        "/port/APERVITA_DDSP_002.jpg",
-        "/port/APERVITA_DDSP_003.jpg",
-      ],
-      projVideos: [],
-    };
+    return {};
   },
   computed: {
     projImagesComputed() {
       if (this.projectData.assets.images) {
         var urlList = [];
         this.projectData.assets.images.forEach((element) => {
-          urlList.push("/port/" + element);
+          urlList.push("/port/" + element.slice(0, -4) + "_thmb.jpg");
         });
         return urlList;
       } else {
-        return this.projectData.assets.images;
+        return false;
       }
     },
     projVideosComputed() {
@@ -62,7 +55,7 @@ export default {
         });
         return urlList;
       } else {
-        return this.projectData.assets.videos;
+        return false;
       }
     },
   },
