@@ -7,21 +7,16 @@
     </div>
     <div class="text-gray-400 mb-4">{{ this.projectData.description }}</div>
     <div class="flex mb-8">
-      <div v-if="projImagesComputed" class="w-full md:w-1/2 mr-4">
+      <div v-if="projImagesComputed" class="mr-4 grid grid-cols-4">
         <div
-          v-for="(image, i) in projImagesComputed"
+          v-for="(image, i) in projImgThmbComputed"
           v-bind:key="i"
-          class="mb-4"
-        >
-          <img :src="image" class="w-64" :key="i" />
-        </div>
+          class="bg-cover bg-left-top w-48 h-48"
+          v-bind:style="{ backgroundImage: 'url(' + image + ')' }"
+        ></div>
       </div>
-      <div v-if="projVideosComputed" class="w-full md:w-1/2">
-        <div
-          v-for="(video, i) in projVideosComputed"
-          v-bind:key="i"
-          class="mb-4"
-        >
+      <div v-if="projVideosComputed">
+        <div v-for="(video, i) in projVideosComputed" v-bind:key="i">
           <youtube :video-id="video"></youtube>
         </div>
       </div>
@@ -36,11 +31,39 @@ export default {
     return {};
   },
   computed: {
-    projImagesComputed() {
+    projImgThmbComputed() {
       if (this.projectData.assets.images) {
         var urlList = [];
         this.projectData.assets.images.forEach((element) => {
           urlList.push("/port/" + element.slice(0, -4) + "_thmb.jpg");
+        });
+        return urlList;
+      } else {
+        return false;
+      }
+    },
+    projImgThmbComputedObj() {
+      if (this.projectData.assets.images) {
+        var imgObjList = [];
+        this.projectData.assets.images.forEach((element) => {
+          var obj = {
+            src: "/port/" + element,
+            thumbnail: "/port/" + element.slice(0, -4) + "_thmb.jpg",
+            thumbnailWidth: "200px",
+            thumbnailHeight: "200px",
+          };
+          imgObjList.push(obj);
+        });
+        return imgObjList;
+      } else {
+        return false;
+      }
+    },
+    projImagesComputed() {
+      if (this.projectData.assets.images) {
+        var urlList = [];
+        this.projectData.assets.images.forEach((element) => {
+          urlList.push("/port/" + element);
         });
         return urlList;
       } else {
