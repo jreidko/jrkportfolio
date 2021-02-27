@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="portAuth">
+    <div v-if="!portAuth">
       <label
         class="block text-1xl text-semibold mb-4 max-w-screen-sm text-gray-400"
       >
@@ -22,7 +22,7 @@
         Sorry that is not the password, please try again.
       </div>
     </div>
-    <div v-if="!portAuth">
+    <div v-if="portAuth">
       <project
         class="h-full overflow-scroll"
         v-for="(project, i) in projectList"
@@ -34,29 +34,29 @@
 </template>
 
 <script>
-import Project from "@/components/Project.vue";
-import jason from "@/assets/jason.json";
+import Project from '@/components/Project.vue'
+import jason from '@/assets/jason.json'
 export default {
   data() {
     return {
       portAuth: false,
       projectList: jason.projects,
-      enteredPassword: "",
-      passwordWrong: false,
-    };
+      enteredPassword: '',
+      passwordWrong: false
+    }
   },
   components: {
-    Project,
+    Project
   },
   methods: {
     processPassword() {
-      if (this.enteredPassword === "takealook") {
-        this.portAuth = true;
-        this.passwordWrong = false;
+      if (this.enteredPassword === 'takealook') {
+        this.portAuth = true
+        this.passwordWrong = false
       } else {
-        this.passwordWrong = true;
+        this.passwordWrong = true
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>

@@ -6,7 +6,7 @@
     {
       "client": "Apervita",
       "name": "The Joint Commission Direct Data Submission Platform",
-      "description": "3,200+ hospitals seeking accreditation go through a painfully time-consuming and manual quality measure calculation and submission process every year. The Direct Data Submission Platform is a cloud-Based, national-scale platform for quality reporting, national-scale platform for quality reporting",
+      "description": "3,200+ hospitals seeking accreditation go through a painfully time-consuming and manual quality measure calculation and submission process every year. The Direct Data Submission Platform is a cloud-Based, national-scale platform for quality reporting.",
       "assets": {
         "images": [
           "APERVITA_DDSP_001.jpg",
@@ -48,10 +48,11 @@
 
     {
       "client": "Apervita",
-      "name": "CQL Electromic Quality Measure Build Tool",
-      "description": "QMeasure is an industry scale CQL-based execution engine and development platform designed to fast track your transition to digital quality measurement. QBuilder is a cloud based tooling for developing CQL-based measures. You can build, test, and collaborate on your new digital measures all within your browser.",
+      "name": "CQL Electronic Quality Measure Build Tool",
+      "description": "QMeasure is an industry scale CQL-based execution engine and development platform designed to speed up transition to digital quality measurement.",
       "assets": {
         "images": [
+          "APERVITA_CPG_001_diag.jpg",
           "APERVITA_CQLBUILDER_001.png",
           "APERVITA_CQLBUILDER_002.png",
           "APERVITA_CQLBUILDER_003.jpg",
@@ -89,10 +90,9 @@
     {
       "client": "Apervita",
       "name": "Clinical Practice Guidelines",
-      "description": "$210 billion wasted on unnecessary services and $130 billion on inefficient services/year 80-90% Healthcare costs influenced by physician decisions Solution: Digitized clinical practice guidelines (ePathways) as sharable assets, delivered into the clinician's workflow",
+      "description": "$210 billion dollars are wasted on unnecessary services and $130 billion on inefficient services every year. 80-90% Healthcare costs are influenced by physician decisions. Digitized clinical practice guidelines deliver the latest evidence based care guidance into the clinician's workflow.",
       "assets": {
         "images": [
-          "APERVITA_CPG_001_diag.jpg",
           "APERVITA_CPG_002_diag.jpg",
           "APERVITA_CPG_003_diag.jpg",
           "APERVITA_CPG_004_diag.jpg",
@@ -160,9 +160,9 @@
       }
     },
     {
-      "client": "Blue Cross & Blue Sheild of Florida",
+      "client": "Blue Cross & Blue Shield of Florida",
       "name": "The Power of the Human Voice",
-      "description": "Blue Cross and Blue Shield of Florida’s powerofthehumanvoice.com website was the hub of the 2008/2009 advertising campaign. The campaign was created to feature residents of Florida's health care stories and share their ideas on how health care in America can be improved. Site visitors could listen to, share, and leave a message at powerofthehumanvoice.com usaing their computer’s microphone or by calling an 800 number that is connected to the user’s session",
+      "description": "Blue Cross and Blue Shield of Florida’s powerofthehumanvoice.com website was the hub of the 2008/2009 advertising campaign. The campaign was created to feature residents of Florida's healthcare stories and share their ideas on how healthcare in America can be improved. Site visitors could listen to, share, and leave a message at powerofthehumanvoice.com using their computer’s microphone or by calling an 800 number that is connected to the user’s session",
       "assets": {
         "images": [
           "BCBSFL_POTHV_001.jpg",
@@ -188,7 +188,7 @@
     {
       "client": "Dow",
       "name": "Hopeiary.com",
-      "description": "Dow’s sponsorship of the 2012 London Olympics featured the Planets Olympic hopeful, a topiary named Hope. This character, that came to life in TV, outdoor and print was also featured on this website were you could grow and share your own interactive animated Hopeiary. Even the planet has an Olympic dream. A greener, more sustainable Olympic Games",
+      "description": "Dow’s sponsorship of the 2012 London Olympics featured the Planets Olympic hopeful, a topiary named Hope. This character, that came to life in TV, outdoor and print was also featured on this website where you could grow and share your own interactive animated Hopeiary. Even the planet has an Olympic dream. A greener, more sustainable Olympic Games.",
       "assets": {
         "images": [
           "DOW_HOPEIARY_001.jpg",
@@ -212,7 +212,7 @@
     {
       "client": "Dow",
       "name": "Solutionism",
-      "description": "Dow’s Solutionism campaign captures the idea that the more we talk together the more we solve together. With this at it’s core, Solutionism stories online aren’t one-way marketing messages but a place where this dialog comes together. Each Solutionism story highlights Dow’s contributions to addressing global mega-trends, aslongside commentary from across the internet.",
+      "description": "Dow’s Solutionism campaign captures the idea that the more we talk together the more we solve together. With this at its core, Solutionism stories online aren’t one-way marketing messages but a place where this dialog comes together. Each Solutionism story highlights Dow’s contributions to addressing global mega-trends, longside commentary from across the internet.",
       "assets": {
         "images": [
           "DOW_SOLUTIONISM_001.jpg",
@@ -331,7 +331,7 @@
       "position": "Product, User Experience, Design, and Development",
       "dates": "12/2010 – Present",
       "company": "Consulting",
-      "description": "Architected, designed, and built the Location-IQ and RentDesk applications for commercial real estate brokerage industry. Location-IQ is a platform to construct, deploy and analyze customer surveys for trade area and demographic insights. RentDesk is a CRM, BI, and collaboration tool for retail broker teams."
+      "description": "Architected, designed, and built the Location-IQ and RentDesk applications for the commercial real estate brokerage industry. Location-IQ is a platform to construct, deploy and analyze customer surveys for trade area and demographic insights. RentDesk is a CRM, BI, and collaboration tool for retail broker teams."
     },
     {
       "position": "Creative Director",
@@ -386,7 +386,7 @@
     "Tempo"
   ],
   "instructables": {
-    "title": "Home Made BFO Metal Detector",
+    "title": "Homemade BFO Metal Detector",
     "url": "https://www.instructables.com/Home-Made-BFO-metal-detector-ADDENDUM/",
     "description": "A BFO metal detector is a 'beat-frequency oscillator' type metal detector. This type of metal detector uses two wire coils, one which is large (detector coil) and one which is small (reference coil). The two wire coils are each connected to capacitors to create two circuits that oscillate. When everything is working correctly, the two coils, while being different sizes, are intended to have the same inductance. In use, the presence of metal near the detector coil changes it's inductance. This causes the two coils to have a different inductance, and the electronic circuit amplifies this difference and makes it audible through the speaker in the circuit. When you hear tones coming from the speaker you know there's some metal around."
   },

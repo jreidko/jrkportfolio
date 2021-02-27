@@ -1,27 +1,39 @@
 <template>
   <div>
     <hr class="mb-4 opacity-20" />
-    <div class="text-gray-400 font-normal">{{ this.projectData.client }}</div>
+    <div class="text-gray-400 font-normal mb-1">
+      {{ this.projectData.client }}
+    </div>
     <div class="text-gray-50 font-semibold text-lg mb-2">
       {{ this.projectData.name }}
     </div>
-    <div class="text-gray-400 mb-4">{{ this.projectData.description }}</div>
+    <div class="text-gray-400 mb-4 max-w-screen-md">
+      {{ this.projectData.description }}
+    </div>
     <div class="flex mb-8">
       <div v-if="projectImages" class="mr-4">
-        <silent-box :gallery="projectImages"></silent-box>
-      </div>
-      <div v-if="projectVideosArray">
-        <div
-          v-for="(video, i) in projectVideosArray"
-          v-bind:key="i"
-          class="mb-4"
-        >
-          <youtube :video-id="video"></youtube>
-        </div>
-        <silent-box :gallery="images">
-          <h2 class="mb-2">Gallery</h2>
+        <silent-box :gallery="projectImages" :preview-count="5">
           <template v-slot:silentbox-item="{ silentboxItem }">
-            <p>{{ silentboxItem.thumbnail }}</p>
+            <div
+              class="bg-cover bg-left-top w-44 h-44 m-2 shadow-lg rounded-md"
+              v-bind:style="{
+                backgroundImage: 'url(' + silentboxItem.thumbnail + ')'
+              }"
+            ></div>
+          </template>
+          <template v-if="projectVideosArray">
+            <div
+              v-for="(video, i) in projectVideosArray"
+              v-bind:key="i"
+              class="silentbox-item"
+            >
+              <youtube
+                :video-id="video"
+                :width="320"
+                :height="180"
+                class="m-2 shadow-lg rounded-md"
+              ></youtube>
+            </div>
           </template>
         </silent-box>
       </div>
@@ -31,67 +43,57 @@
 
 <script>
 export default {
-  props: ["projectData"],
+  props: ['projectData'],
   data() {
     return {
       images: [
         {
-          src: "/port/APERVITA_DDSP_001.jpg",
-          thumbnail: "/port/APERVITA_DDSP_001_thmb.jpg",
-          thumbnailWidth: 200,
-        },
-        {
-          src: "/port/APERVITA_DDSP_002.jpg",
-          thumbnail: "/port/APERVITA_DDSP_002_thmb.jpg",
-          thumbnailWidth: 200,
-        },
-        {
-          src: "/port/APERVITA_DDSP_003.jpg",
-          thumbnail: "/port/APERVITA_DDSP_003_thmb.jpg",
-          thumbnailWidth: 200,
-        },
-      ],
-    };
+          src: '/port/APERVITA_DDSP_001.jpg',
+          thumbnail: '/port/APERVITA_DDSP_001_thmb.jpg',
+          thumbnailWidth: 200
+        }
+      ]
+    }
   },
   computed: {
     projectImages() {
       if (this.projectData.assets.images) {
-        var imgObjList = [];
+        var imgObjList = []
         this.projectData.assets.images.forEach((element) => {
           var obj = {
-            src: "/port/" + element,
-            thumbnail: "/port/" + element.slice(0, -4) + "_thmb.jpg",
-            thumbnailWidth: 200,
-          };
-          imgObjList.push(obj);
-        });
-        return imgObjList;
+            src: '/port/' + element,
+            thumbnail: '/port/' + element.slice(0, -4) + '_thmb.jpg',
+            thumbnailWidth: 200
+          }
+          imgObjList.push(obj)
+        })
+        return imgObjList
       } else {
-        return false;
+        return false
       }
     },
     projectImagesArray() {
       if (this.projectData.assets.images) {
-        var urlList = [];
+        var urlList = []
         this.projectData.assets.images.forEach((element) => {
-          urlList.push("/port/" + element);
-        });
-        return urlList;
+          urlList.push('/port/' + element)
+        })
+        return urlList
       } else {
-        return false;
+        return false
       }
     },
     projectVideosArray() {
       if (this.projectData.assets.videos) {
-        var urlList = [];
+        var urlList = []
         this.projectData.assets.videos.forEach((element) => {
-          urlList.push(element.videoid);
-        });
-        return urlList;
+          urlList.push(element.videoid)
+        })
+        return urlList
       } else {
-        return false;
+        return false
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>
