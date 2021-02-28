@@ -7,9 +7,10 @@
     <div class="text-gray-50 font-semibold text-lg mb-2">
       {{ this.projectData.name }}
     </div>
-    <div class="text-gray-400 mb-4 max-w-screen-md">
-      {{ this.projectData.description }}
-    </div>
+    <div
+      class="text-gray-400 mb-4 max-w-screen-md"
+      v-html="this.projectData.description"
+    ></div>
     <div class="flex mb-8">
       <div v-if="projectImages" class="mr-4">
         <silent-box :gallery="projectImages" :preview-count="5">

@@ -2,13 +2,13 @@
   <div class="">
     <div class="p-12 text-gray-400 h-full overflow-scroll">
       <h1 class="text-3xl text-semibold mb-4 text-white">Jason Koerner</h1>
-      <h3 class="text-1xl text-semibold mb-8 max-w-screen-sm text-gray-400">
+      <h3 class="text-1xl text-semibold mb-6 max-w-screen-sm text-gray-400">
         Hello! {{ jason.description }}
       </h3>
-      <div class="mb-8 inline-block">
+      <div class="mb-4 mr-2 inline-block">
         <a
           href="#"
-          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100"
+          class="px-6 py-3 mr-4 mb-4 rounded-md text-black bg-white opacity-30 hover:opacity-100 inline-block"
           @click="resumeView = !resumeView"
           v-bind:class="{ 'opacity-100': resumeView }"
         >
@@ -16,14 +16,14 @@
         </a>
         <a
           href="#"
-          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100"
+          class="px-6 py-3 mr-4 mb-4 rounded-md text-black bg-white opacity-30 hover:opacity-100 inline-block"
           @click="portView = !portView"
           v-bind:class="{ 'opacity-100': portView }"
         >
           Portfolio
         </a>
         <a
-          class="px-6 py-3 mr-6 rounded-md text-black bg-white opacity-30 hover:opacity-100"
+          class="px-6 py-3 mr-4 mb-4 rounded-md text-black bg-white opacity-30 hover:opacity-100 inline-block"
           href="mailto:jreidko@gmail.com"
           >Contact</a
         >
@@ -116,11 +116,11 @@
 </template>
 
 <script>
-import "tailwindcss/tailwind.css";
-import ProjectList from "./components/ProjectList.vue";
-import Position from "./components/Position.vue";
-import Award from "./components/Award.vue";
-import jason from "./assets/jason.json";
+import 'tailwindcss/tailwind.css'
+import ProjectList from './components/ProjectList.vue'
+import Position from './components/Position.vue'
+import Award from './components/Award.vue'
+import jason from './assets/jason.json'
 export default {
   data() {
     return {
@@ -129,31 +129,31 @@ export default {
       jason: jason,
       projectList: jason.projects,
       positionList: jason.positions,
-      awardList: jason.awards,
-    };
+      awardList: jason.awards
+    }
   },
   computed: {
     bgsImgURL() {
-      var rNum = Math.floor(Math.random() * 9) + 1;
-      return "/bgs/00" + rNum + ".jpg";
-    },
+      var rNum = Math.floor(Math.random() * 9) + 1
+      return '/bgs/00' + rNum + '.jpg'
+    }
   },
   watch: {
     resumeView() {
       if (this.resumeView == true) {
-        this.portView = false;
+        this.portView = false
       }
     },
     portView() {
       if (this.portView == true) {
-        this.resumeView = false;
+        this.resumeView = false
       }
-    },
+    }
   },
   components: {
     Position,
     ProjectList,
-    Award,
-  },
-};
+    Award
+  }
+}
 </script>

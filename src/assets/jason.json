@@ -48,8 +48,8 @@
 
     {
       "client": "Apervita",
-      "name": "CQL Electronic Quality Measure Build Tool",
-      "description": "QMeasure is an industry scale CQL-based execution engine and development platform designed to speed up transition to digital quality measurement.",
+      "name": "Electronic Quality Measure Build Tool",
+      "description": "Quality measurement in healthcare is the tracking and study of interventions and outcomes. By following the care of a patient and tracking medical interventions, a healthcare organization can begin to evaluate and optimize the effectiveness of that care. Quality Measures define the current best practices around a condition and create a basis for hospitals to evaluate their own performance.<div class=\"h-3\"></div>Turning once a year clipboard and spreadsheet quality measure evaluation into continuous evaluation using real time data from an EHR has been slow and very little progress has been made. The Apervitas Measure Builder is an industry scale CQL-based quality measure execution engine and development platform. Containing a development environment for CQL logic and tools to connect and test that logic using the quality measure ecosystem assets like VSAC value sets and protected health information.",
       "assets": {
         "images": [
           "APERVITA_CPG_001_diag.jpg",
@@ -90,7 +90,7 @@
     {
       "client": "Apervita",
       "name": "Clinical Practice Guidelines",
-      "description": "$210 billion dollars are wasted on unnecessary services and $130 billion on inefficient services every year. 80-90% Healthcare costs are influenced by physician decisions. Digitized clinical practice guidelines deliver the latest evidence based care guidance into the clinician's workflow.",
+      "description": "Over $300 billion dollars are wasted every year in US healthcare. Care delivery is plagued with unwarranted care variation. At the same time subject matter experts and consultants build clinical decision support tools for narrow categories and implement them in disparate systems that are expensive to procure and maintain.<div class=\"h-3\"></div>Clinical practice guidelines (electronic pathways) are tools used to guide evidence-based healthcare. Their aim is to translate clinical practice guideline recommendations into clinical processes of care.",
       "assets": {
         "images": [
           "APERVITA_CPG_002_diag.jpg",
@@ -290,7 +290,7 @@
     {
       "client": "Valspar",
       "name": "Digital Marketing & Branded Color Tools",
-      "description": "As the creative director on Valspar Paint I oversaw all digital markating for the brand. In addition to display, social and influencer programs, we created the annual color trends experience, the U.K. brand site and the Color Connect iOS app.",
+      "description": "As the creative director on Valspar Paint I oversaw all digital marketing for the brand. In addition to display, social and influencer programs, we created the annual color trends experience, the U.K. brand site and the Color Connect iOS app.",
       "assets": {
         "images": [
           "VALSPAR_COLORCONNECT_001.jpg",
@@ -402,14 +402,14 @@
       "description": "The incredibly fun to play Pocket Operator by Teenage Engineering is an awesome little sound machine. This model is a case, a trigger to press the write button, and a phone attachment arm.<br />I wanted to find a way to play the PO keys with my thumbs while I was holding down the write button in the bottom right corner.<br />The POTR has a lever that you can actuate with your fingers while you play the sound keys with your thumbs. In this way you can hold the Pocket Operator and also press the write button.<br />Now that you can walk around while you shred your electro-beats, you're going to want some way to share the insanity. The integrated phone holder attachment arm points your phone right at the Pocket Operator and keeps it there so you can rock on and on while also capturing the ear soup on video.<br />The POTR has several features:<br />Write button trigger / presser<br />Phone attachment with universal phone clamp<br />Extra batteries storage<br />Inserts for bolts to add weight"
     },
     {
-      "title": "Pagoda Bird House",
+      "title": "Pagoda Birdhouse",
       "url": "https://www.thingiverse.com/thing:4768696",
       "description": "This is a remix of tomatohead's great Birdhouse Pagoda Style https://www.thingiverse.com/thing:106401<br />I loved the Pagoda look but wanted bigger doors and a different kind of perch for the birds. This model simplifies some of the original design and turns the model into a four piece print.<br />This version of tomatohead's model is four pieces. The body has small holes in the floor to allow for drainage, The larger roof A has a recessed pentagon to receive the base. The second roof B just sits on top of the first and the mast is inserted through the hole in roof B and then glued into the mast hole in roof A. I've found the roof does not need to be glued into the roof A and will stay attached even hanging. This might be preferable if you want to be able to open it up to add seed, etc."
     },
     {
       "title": "Low Polygon Mask Refactor",
       "url": "https://www.thingiverse.com/thing:4768695",
-      "description": "This is a remix of cporto's Low Polygon Mask https://www.thingiverse.com/thing:1097497<br />Sometimes you just need to give the gpu a rest and reduce your mesh detail. I wanted to make this model more consistently thick and add some slots for a strap.<br />In the process I also added a small curved piece to the temple on the inside to hold the mask slightly further away from the eyes. You can add some padding to this for comfort.<br />Printing this model upside down improved the results on my Ender-3. When i print this model right side up the last portion of the forehead had to much overhang and was delaminating.<br />Lucky Strike extra, I had a print detach from the build plate a third of the way through. I think the result makes a important statement about a lot of things that i find here on Thingiverse."
+      "description": "This is a remix of cporto's Low Polygon Mask https://www.thingiverse.com/thing:1097497<br />Sometimes you just need to give the gpu a rest and reduce your mesh detail. I wanted to make this model more consistently thick and add some slots for a strap.<br />In the process I also added a small curved piece to the temple on the inside to hold the mask slightly further away from the eyes. You can add some padding to this for comfort.<br />Printing this model upside down improved the results on my Ender-3. When I print this model right side up the last portion of the forehead had too much overhang and was delaminating.<br />Lucky Strike extra, I had a print detach from the build plate a third of the way through. I think the result makes an important statement about a lot of things that I find here on Thingiverse."
     },
     {
       "title": "Harry Potter Hermione Ron",
@@ -419,7 +419,7 @@
     {
       "title": "Ender 3 Y Carriage Plate Boom",
       "url": "https://www.thingiverse.com/thing:4768685",
-      "description": "A boom attachment sized to mount on the Ender 3 Pro Y carriage.<br />This is designed to hang off the front of the y carriage plate and is mounted on the leveling bolts.<br />There are two models, one is a simpler lighter weight version and one is intended to be much stiffer. The bolt recesses make room for the leveling springs<br />It's possible that the most useful part of this model will be the carriage plate reference and workable mounting holes. There is a blender model included to potentially make it easier to make your own thing. use the model."
+      "description": "A boom attachment sized to mount on the Ender 3 Pro Y carriage.<br />This is designed to hang off the front of the y carriage plate and is mounted on the leveling bolts.<br />There are two models, one is a simpler lighter weight version and one is intended to be much stiffer. The bolt recesses make room for the leveling springs<br />It's possible that the most useful part of this model will be the carriage plate reference and workable mounting holes. There is a blender model included to potentially make it easier to make your own thing."
     },
     {
       "title": "Ear Saver Notre Dame",
