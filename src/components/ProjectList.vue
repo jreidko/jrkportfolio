@@ -24,7 +24,7 @@
     </div>
     <div v-if="portAuth">
       <project
-        class="h-full overflow-scroll"
+        class="h-full"
         v-for="(project, i) in projectList"
         v-bind:key="'a' + i"
         v-bind:projectData="project"

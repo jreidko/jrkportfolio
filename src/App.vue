@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="p-12 text-gray-400 h-full overflow-scroll">
+    <div class="p-12 text-gray-400">
       <h1 class="text-3xl text-semibold mb-4 text-white">Jason Koerner</h1>
       <h3 class="text-1xl text-semibold mb-6 max-w-screen-sm text-gray-400">
         Hello! {{ jason.description }}
@@ -82,7 +82,7 @@
           </svg>
         </a>
       </div>
-      <div v-if="resumeView" class="h-full overflow-scroll">
+      <div v-if="resumeView" class="h-full">
         <position
           class="mb-6"
           v-for="(position, i) in positionList"
