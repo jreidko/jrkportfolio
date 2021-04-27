@@ -11,6 +11,7 @@
         placeholder="Password"
         class="px-6 py-3 mb-4 mr-4 rounded-md text-black bg-white focus:outline-none"
         v-model="enteredPassword"
+        v-on:keyup.enter="processPassword"
       />
       <button
         class="px-6 py-3 mb-4 rounded-md text-black bg-white opacity-30 hover:opacity-100 focus:outline-none"
@@ -22,13 +23,30 @@
         Sorry that is not the password, please try again.
       </div>
     </div>
-    <div v-if="portAuth">
+    <div v-else>
       <project
         class="h-full"
-        v-for="(project, i) in projectList"
+        v-for="(project, i) in projectListMain"
         v-bind:key="'a' + i"
         v-bind:projectData="project"
       ></project>
+      <div>
+        <hr class="mb-8 opacity-20" />
+        <button
+          class="text-gray-400 font-normal mb-8 hover:text-white cursor-pointer focus:outline-none"
+          v-on:click="secondary = !secondary"
+        >
+          Other work >
+        </button>
+        <div v-if="this.secondary">
+          <project
+            class="h-full"
+            v-for="(project, i) in projectListSecondary"
+            v-bind:key="'b' + i"
+            v-bind:projectData="project"
+          ></project>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -40,7 +58,9 @@ export default {
   data() {
     return {
       portAuth: false,
-      projectList: jason.projects,
+      projectListMain: jason.projects.slice(0, 4),
+      projectListSecondary: jason.projects.slice(4),
+      secondary: false,
       enteredPassword: '',
       passwordWrong: false
     }
