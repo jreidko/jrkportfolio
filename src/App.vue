@@ -134,8 +134,8 @@ export default {
   },
   computed: {
     bgsImgURL() {
-      var rNum = Math.floor(Math.random() * 9) + 1
-      return '/bgs/00' + rNum + '.jpg'
+      var rNum = Math.floor(Math.random() * 10) + 1
+      return '/bgs/' + rNum + '.jpg'
     }
   },
   watch: {

@@ -1,7 +1,7 @@
 {
   "name": "Jason Koerner",
-  "title": "User experience and product design",
-  "description": "I’m a user experience and product design professional with a recent focus on healthcare, and commercial real estate products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
+  "title": "User Experience Design",
+  "description": "I’m a user experience designer with a recent focus on healthcare, and commercial real estate products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
   "projects": [
     {
       "client": "Retailer.Space",
@@ -29,26 +29,6 @@
           "RENTDESK_018.jpg",
           "RENTDESK_019.jpg",
           "RENTDESK_020.jpg"
-        ]
-      }
-    },
-    {
-      "client": "Location I.Q.",
-      "name": "Cloud Based In-Store Survey Application",
-      "description": "The Location I.Q. application helps retailers gather and analyze customer demographic information. Create customized surveys and deploy in-store on a tablet device. Use the built in analytic tools to generate reports, map trade areas, chart questions and export data. With a focus on new site selection, Location I.Q. was developed as an integrated retail consulting tool. The service was architected, designed and built by me.",
-      "assets": {
-        "images": [
-          "LOCATIONIQ_001.png",
-          "LOCATIONIQ_002.png",
-          "LOCATIONIQ_003.jpg",
-          "LOCATIONIQ_004.jpg",
-          "LOCATIONIQ_005.jpg",
-          "LOCATIONIQ_006.jpg",
-          "LOCATIONIQ_007.jpg",
-          "LOCATIONIQ_008.jpg",
-          "LOCATIONIQ_009.jpg",
-          "LOCATIONIQ_010.jpg",
-          "LOCATIONIQ_011.jpg"
         ]
       }
     },
@@ -155,6 +135,26 @@
           "APERVITA_DDSP_031.png",
           "APERVITA_DDSP_032.png",
           "APERVITA_DDSP_033.png"
+        ]
+      }
+    },
+    {
+      "client": "Location I.Q.",
+      "name": "Cloud Based In-Store Survey Application",
+      "description": "The Location I.Q. application helps retailers gather and analyze customer demographic information. Create customized surveys and deploy in-store on a tablet device. Use the built in analytic tools to generate reports, map trade areas, chart questions and export data. With a focus on new site selection, Location I.Q. was developed as an integrated retail consulting tool. The service was architected, designed and built by me.",
+      "assets": {
+        "images": [
+          "LOCATIONIQ_001.png",
+          "LOCATIONIQ_002.png",
+          "LOCATIONIQ_003.jpg",
+          "LOCATIONIQ_004.jpg",
+          "LOCATIONIQ_005.jpg",
+          "LOCATIONIQ_006.jpg",
+          "LOCATIONIQ_007.jpg",
+          "LOCATIONIQ_008.jpg",
+          "LOCATIONIQ_009.jpg",
+          "LOCATIONIQ_010.jpg",
+          "LOCATIONIQ_011.jpg"
         ]
       }
     },
@@ -390,6 +390,11 @@
     "description": "A BFO metal detector is a 'beat-frequency oscillator' type metal detector. This type of metal detector uses two wire coils, one which is large (detector coil) and one which is small (reference coil). The two wire coils are each connected to capacitors to create two circuits that oscillate. When everything is working correctly, the two coils, while being different sizes, are intended to have the same inductance. In use, the presence of metal near the detector coil changes it's inductance. This causes the two coils to have a different inductance, and the electronic circuit amplifies this difference and makes it audible through the speaker in the circuit. When you hear tones coming from the speaker you know there's some metal around."
   },
   "thingiverse": [
+    {
+      "title": "A-Frame Bird Feeder Remix",
+      "url": "https://www.thingiverse.com/thing:4876203",
+      "description": "This is a remix of apc_digital's awesome A-Frame Birdfeeder https://www.thingiverse.com/thing:3705723. I wanted to add some things for the birds to rest on as well as modify the geometry to be even more... uh... geomtric... This birdfeeder has three components. The 'house' has pin holes in the sides to accept the pins that hold the branches. The 'Branches' have pin cavities in their base so that the pin can fasten the branch to the house. The pins kinda worked, but a better solution is needed. I've put several pin designs in the blender file, but i picked the best working one for the stl. The branches were made using warmarine759's fantastic pattern for tree-making in Blender. Check out the 'Dead Tree' at https://www.thingiverse.com/thing:3839198. I've included the Blender models as well. The blender file contains both pre and post booleans so feel free to grab it and make your own thing!"
+    },
     {
       "title": "Rotary Tool Handle",
       "url": "https://www.thingiverse.com/thing:4768703",
