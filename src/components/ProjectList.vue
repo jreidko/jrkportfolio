@@ -30,23 +30,12 @@
         v-bind:key="'a' + i"
         v-bind:projectData="project"
       ></project>
-      <div>
-        <hr class="mb-8 opacity-20" />
-        <button
-          class="text-gray-400 font-normal mb-8 hover:text-white cursor-pointer focus:outline-none"
-          v-on:click="secondary = !secondary"
-        >
-          Other work >
-        </button>
-        <div v-if="this.secondary">
-          <project
-            class="h-full"
-            v-for="(project, i) in projectListSecondary"
-            v-bind:key="'b' + i"
-            v-bind:projectData="project"
-          ></project>
-        </div>
-      </div>
+      <project
+        class="h-full"
+        v-for="(project, i) in projectListSecondary"
+        v-bind:key="'b' + i"
+        v-bind:projectData="project"
+      ></project>
     </div>
   </div>
 </template>
