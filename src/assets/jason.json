@@ -4,31 +4,19 @@
   "description": "I’m a user experience designer with a recent focus on healthcare, and commercial real estate products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
   "projects": [
     {
-      "client": "Retailer.Space",
-      "name": "Commercial Real Estate Brokerage Platform",
-      "description": "Retailer.Space is a retail real estate solution focused on canvassing, availability management, and client communication. It is designed to produce essential deliverables such as market reports and both printed and virtual tour books.",
+      "client": "WISEcode",
+      "name": "Wisecode Platform for Nutrition Data",
+      "description": "Today's Food information is inaccurate, incomplete & outdated. WISEcode is a food-data company dedicated to giving the world complete, accurate & up-to-date food and nutrition information. During their early beta phase I assited in developing several proof of concept applications to highlight the key features of the WISEcode nutrition platform.",
       "assets": {
         "images": [
-          "RENTDESK_001.jpg",
-          "RENTDESK_002.jpg",
-          "RENTDESK_003.jpg",
-          "RENTDESK_004.jpg",
-          "RENTDESK_005.jpg",
-          "RENTDESK_006.jpg",
-          "RENTDESK_007.jpg",
-          "RENTDESK_008.jpg",
-          "RENTDESK_009.jpg",
-          "RENTDESK_010.jpg",
-          "RENTDESK_011.jpg",
-          "RENTDESK_012.jpg",
-          "RENTDESK_013.jpg",
-          "RENTDESK_014.jpg",
-          "RENTDESK_015.jpg",
-          "RENTDESK_016.jpg",
-          "RENTDESK_017.jpg",
-          "RENTDESK_018.jpg",
-          "RENTDESK_019.jpg",
-          "RENTDESK_020.jpg"
+          "wisecode_01.png",
+          "wisecode_02.png",
+          "wisecode_03.jpg",
+          "wisecode_04.jpg",
+          "wisecode_05.jpg",
+          "wisecode_06.jpg",
+          "wisecode_07.png",
+          "wisecode_08.png"
         ]
       }
     },
@@ -213,11 +201,7 @@
       "name": "Solutionism",
       "description": "Dow’s Solutionism campaign captures the idea that the more we talk together the more we solve together. With this at its core, Solutionism stories online aren’t one-way marketing messages but a place where this dialog comes together. Each Solutionism story highlights Dow’s contributions to addressing global mega-trends, longside commentary from across the internet.",
       "assets": {
-        "images": [
-          "DOW_SOLUTIONISM_001.jpg",
-          "DOW_SOLUTIONISM_002.jpg",
-          "DOW_SOLUTIONISM_003.jpg"
-        ],
+        "images": ["DOW_SOLUTIONISM_001.jpg", "DOW_SOLUTIONISM_002.jpg", "DOW_SOLUTIONISM_003.jpg"],
         "videos": [
           {
             "url": "https://youtu.be/JyXmVikyp68",
@@ -375,15 +359,7 @@
       "aside": "Clients include: The Chicago Bears, Chicago White Sox, WMAQ News Radio, The Score Sports Radio, Fair Muffler, Allied Pickfords Van Lines, Leader Communications, Burke Homes, Thorspring Icelandic Spring Water, Hoffman Homes."
     }
   ],
-  "awards": [
-    "Art Directors Club",
-    "Communication Arts",
-    "FWA",
-    "Webby",
-    "Ad-Tech",
-    "ECHO",
-    "Tempo"
-  ],
+  "awards": ["Art Directors Club", "Communication Arts", "FWA", "Webby", "Ad-Tech", "ECHO", "Tempo"],
   "instructables": {
     "title": "Homemade BFO Metal Detector",
     "url": "https://www.instructables.com/Home-Made-BFO-metal-detector-ADDENDUM/",
