@@ -28,22 +28,22 @@
           collect data in a centralized place to discover market insights, share
           listings, and collaborate with your team and clients.
         </div>
-        <div class="flex mb-8">
-          <a target="_blank" href="https://retailer.space/" class="mr-4">
+        <div class="flex flex-wrap mb-8">
+          <a target="_blank" href="https://retailer.space/" class="mr-2">
             <div class="bg-cover bg-center w-44 h-44 m-2 shadow-lg rounded-md" v-bind:style="{
               backgroundImage: 'url(/port/retailer-space-01.jpg)'
             }"></div>
           </a>
           <a target="_blank"
             href="https://www.figma.com/proto/zYYrdNVAnmBhRvLRL1c4aI/Retailer.Space-v3?node-id=3%3A726&viewport=1144%2C444%2C0.03&scaling=contain&starting-point-node-id=244%3A7090"
-            class="mr-4">
+            class="mr-2">
             <div class="bg-cover bg-left-top w-44 h-44 m-2 shadow-lg rounded-md" v-bind:style="{
               backgroundImage: 'url(/port/retailer-space-02.jpg)'
             }"></div>
           </a>
           <a target="_blank"
             href="https://www.figma.com/proto/zYYrdNVAnmBhRvLRL1c4aI/Retailer.Space-v3?node-id=3%3A726&viewport=1144%2C444%2C0.03&scaling=contain&starting-point-node-id=244%3A7115"
-            class="mr-4">
+            class="mr-2">
             <div class="bg-cover bg-left-top w-44 h-44 m-2 shadow-lg rounded-md" v-bind:style="{
               backgroundImage: 'url(/port/retailer-space-03.jpg)'
             }"></div>
