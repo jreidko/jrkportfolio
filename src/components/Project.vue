@@ -7,18 +7,33 @@
     <div class="text-gray-50 font-semibold text-lg mb-2">
       {{ this.projectData.name }}
     </div>
-    <div class="text-gray-400 mb-4 max-w-screen-md" v-html="this.projectData.description"></div>
+    <div
+      class="text-gray-400 mb-4 max-w-screen-md"
+      v-html="this.projectData.description"
+    ></div>
     <div class="flex mb-8">
       <div v-if="projectImages" class="mr-4">
-        <silent-box :gallery="projectImages" :preview-count="5">
+        <silent-box :gallery="projectImages" :preview-count="9">
           <template v-slot:silentbox-item="{ silentboxItem }">
-            <div class="bg-cover bg-left-top w-44 h-44 m-2 shadow-lg rounded-md" v-bind:style="{
-              backgroundImage: 'url(' + silentboxItem.thumbnail + ')'
-            }"></div>
+            <div
+              class="bg-cover bg-center-top w-44 h-44 m-2 shadow-lg rounded-md"
+              v-bind:style="{
+                backgroundImage: 'url(' + silentboxItem.thumbnail + ')'
+              }"
+            ></div>
           </template>
           <template v-if="projectVideosArray">
-            <div v-for="(video, i) in projectVideosArray" v-bind:key="i" class="silentbox-item">
-              <youtube :video-id="video" :width="320" :height="180" class="m-2 shadow-lg rounded-md"></youtube>
+            <div
+              v-for="(video, i) in projectVideosArray"
+              v-bind:key="i"
+              class="silentbox-item"
+            >
+              <youtube
+                :video-id="video"
+                :width="320"
+                :height="180"
+                class="m-2 shadow-lg rounded-md"
+              ></youtube>
             </div>
           </template>
         </silent-box>

@@ -1,7 +1,7 @@
 {
   "name": "Jason Koerner",
   "title": "User Experience Design",
-  "description": "I’m a user experience designer with a recent focus on healthcare, and commercial real estate products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
+  "description": "I’m a user experience designer with a recent focus on nutrition, commercial real estate, and healthcare products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
   "projects": [
     {
       "client": "WISEcode",
@@ -9,14 +9,15 @@
       "description": "Today's Food information is inaccurate, incomplete & outdated. WISEcode is a food-data company dedicated to giving the world complete, accurate & up-to-date food and nutrition information. During their early beta phase I assited in developing several proof of concept applications to highlight the key features of the WISEcode nutrition platform.",
       "assets": {
         "images": [
-          "wisecode_01.png",
-          "wisecode_02.png",
-          "wisecode_03.jpg",
-          "wisecode_04.jpg",
-          "wisecode_05.jpg",
-          "wisecode_06.jpg",
-          "wisecode_07.png",
-          "wisecode_08.png"
+          "wisecode-01.jpg",
+          "wisecode-02.jpg",
+          "wisecode-03.jpg",
+          "wisecode-04.jpg",
+          "wisecode-05.jpg",
+          "wisecode-06.jpg",
+          "wisecode-07.jpg",
+          "wisecode-08.jpg",
+          "wisecode-09.jpg"
         ]
       }
     },
@@ -26,20 +27,11 @@
       "description": "Over $300 billion dollars are wasted every year in US healthcare. Care delivery is plagued with unwarranted care variation. At the same time subject matter experts and consultants build clinical decision support tools for narrow categories and implement them in disparate systems that are expensive to procure and maintain.<div class=\"h-3\"></div>Clinical practice guidelines (electronic pathways) are tools used to guide evidence-based healthcare. Their aim is to translate clinical practice guideline recommendations into clinical processes of care.",
       "assets": {
         "images": [
-          "APERVITA_CPG_002_diag.jpg",
-          "APERVITA_CPG_003_diag.jpg",
-          "APERVITA_CPG_004_diag.jpg",
-          "APERVITA_CPG_005_diag.jpg",
-          "APERVITA_CPG_001_timeline.jpg",
-          "APERVITA_CPG_002_timeline.jpg",
-          "APERVITA_CPG_003_timeline.jpg",
-          "APERVITA_CPG_004_timeline.jpg",
-          "APERVITA_CPG_005_timeline.jpg",
-          "APERVITA_CPG_001_build.jpg",
-          "APERVITA_CPG_002_build.jpg",
-          "APERVITA_CPG_003_build.jpg",
-          "APERVITA_CPG_004_build.jpg",
-          "APERVITA_CPG_005_build.jpg"
+          "cpguidelines-01.jpg",
+          "cpguidelines-02.jpg",
+          "cpguidelines-03.jpg",
+          "cpguidelines-04.jpg",
+          "cpguidelines-05.jpg"
         ]
       }
     },
@@ -49,38 +41,10 @@
       "description": "Quality measurement in healthcare is the tracking and study of interventions and outcomes. By following the care of a patient and tracking medical interventions, a healthcare organization can begin to evaluate and optimize the effectiveness of that care. Quality Measures define the current best practices around a condition and create a basis for hospitals to evaluate their own performance.<div class=\"h-3\"></div>Turning once a year clipboard and spreadsheet quality measure evaluation into continuous evaluation using real time data from an EHR has been slow and very little progress has been made. The Apervitas Measure Builder is an industry scale CQL-based quality measure execution engine and development platform. Containing a development environment for CQL logic and tools to connect and test that logic using the quality measure ecosystem assets like VSAC value sets and protected health information.",
       "assets": {
         "images": [
-          "APERVITA_CPG_001_diag.jpg",
-          "APERVITA_CQLBUILDER_001.png",
-          "APERVITA_CQLBUILDER_002.png",
-          "APERVITA_CQLBUILDER_003.jpg",
-          "APERVITA_CQLBUILDER_004.jpg",
-          "APERVITA_CQLBUILDER_005.jpg",
-          "APERVITA_CQLBUILDER_006.jpg",
-          "APERVITA_CQLBUILDER_007.jpg",
-          "APERVITA_CQLBUILDER_008.jpg",
-          "APERVITA_CQLBUILDER_009.jpg",
-          "APERVITA_CQLBUILDER_010.jpg",
-          "APERVITA_CQLBUILDER_011.jpg",
-          "APERVITA_CQLBUILDER_012.jpg",
-          "APERVITA_CQLBUILDER_013.jpg",
-          "APERVITA_CQLBUILDER_014.jpg",
-          "APERVITA_CQLBUILDER_015.jpg",
-          "APERVITA_CQLBUILDER_016.jpg",
-          "APERVITA_CQLBUILDER_017.jpg",
-          "APERVITA_CQLBUILDER_018.jpg",
-          "APERVITA_CQLBUILDER_019.jpg",
-          "APERVITA_CQLBUILDER_020.jpg",
-          "APERVITA_CQLBUILDER_021.jpg",
-          "APERVITA_CQLBUILDER_022.jpg",
-          "APERVITA_CQLBUILDER_023.jpg",
-          "APERVITA_CQLBUILDER_024.jpg",
-          "APERVITA_CQLBUILDER_025.jpg",
-          "APERVITA_CQLBUILDER_026.jpg",
-          "APERVITA_CQLBUILDER_027.jpg",
-          "APERVITA_CQLBUILDER_028.png",
-          "APERVITA_CQLBUILDER_029.png",
-          "APERVITA_CQLBUILDER_030.jpg",
-          "APERVITA_CQLBUILDER_031.jpg"
+          "cqlbuilder-01.jpg",
+          "cqlbuilder-02.jpg",
+          "cqlbuilder-03.jpg",
+          "cqlbuilder-04.jpg"
         ]
       }
     },
@@ -90,39 +54,11 @@
       "description": "3,200+ hospitals seeking accreditation go through a painfully time-consuming and manual quality measure calculation and submission process every year. The Direct Data Submission Platform is a cloud-Based, national-scale platform for quality reporting.",
       "assets": {
         "images": [
-          "APERVITA_DDSP_001.jpg",
-          "APERVITA_DDSP_002.jpg",
-          "APERVITA_DDSP_003.jpg",
-          "APERVITA_DDSP_004.jpg",
-          "APERVITA_DDSP_005.jpg",
-          "APERVITA_DDSP_006.jpg",
-          "APERVITA_DDSP_007.png",
-          "APERVITA_DDSP_008.png",
-          "APERVITA_DDSP_009.jpg",
-          "APERVITA_DDSP_010.jpg",
-          "APERVITA_DDSP_011.jpg",
-          "APERVITA_DDSP_012.jpg",
-          "APERVITA_DDSP_013.jpg",
-          "APERVITA_DDSP_014.jpg",
-          "APERVITA_DDSP_015.jpg",
-          "APERVITA_DDSP_016.jpg",
-          "APERVITA_DDSP_017.jpg",
-          "APERVITA_DDSP_018.jpg",
-          "APERVITA_DDSP_019.jpg",
-          "APERVITA_DDSP_020.jpg",
-          "APERVITA_DDSP_021.jpg",
-          "APERVITA_DDSP_022.jpg",
-          "APERVITA_DDSP_023.jpg",
-          "APERVITA_DDSP_024.jpg",
-          "APERVITA_DDSP_025.jpg",
-          "APERVITA_DDSP_026.jpg",
-          "APERVITA_DDSP_027.jpg",
-          "APERVITA_DDSP_028.jpg",
-          "APERVITA_DDSP_029.png",
-          "APERVITA_DDSP_030.png",
-          "APERVITA_DDSP_031.png",
-          "APERVITA_DDSP_032.png",
-          "APERVITA_DDSP_033.png"
+          "tjcddsp-01.jpg",
+          "tjcddsp-02.jpg",
+          "tjcddsp-03.jpg",
+          "tjcddsp-04.jpg",
+          "tjcddsp-05.jpg"
         ]
       }
     },
@@ -132,17 +68,12 @@
       "description": "The Location I.Q. application helps retailers gather and analyze customer demographic information. Create customized surveys and deploy in-store on a tablet device. Use the built in analytic tools to generate reports, map trade areas, chart questions and export data. With a focus on new site selection, Location I.Q. was developed as an integrated retail consulting tool. The service was architected, designed and built by me.",
       "assets": {
         "images": [
-          "LOCATIONIQ_001.png",
-          "LOCATIONIQ_002.png",
-          "LOCATIONIQ_003.jpg",
-          "LOCATIONIQ_004.jpg",
-          "LOCATIONIQ_005.jpg",
-          "LOCATIONIQ_006.jpg",
-          "LOCATIONIQ_007.jpg",
-          "LOCATIONIQ_008.jpg",
-          "LOCATIONIQ_009.jpg",
-          "LOCATIONIQ_010.jpg",
-          "LOCATIONIQ_011.jpg"
+          "locationiq-01.jpg",
+          "locationiq-02.jpg",
+          "locationiq-03.jpg",
+          "locationiq-04.jpg",
+          "locationiq-05.jpg",
+          "locationiq-06.jpg"
         ]
       }
     },
@@ -201,7 +132,11 @@
       "name": "Solutionism",
       "description": "Dow’s Solutionism campaign captures the idea that the more we talk together the more we solve together. With this at its core, Solutionism stories online aren’t one-way marketing messages but a place where this dialog comes together. Each Solutionism story highlights Dow’s contributions to addressing global mega-trends, longside commentary from across the internet.",
       "assets": {
-        "images": ["DOW_SOLUTIONISM_001.jpg", "DOW_SOLUTIONISM_002.jpg", "DOW_SOLUTIONISM_003.jpg"],
+        "images": [
+          "DOW_SOLUTIONISM_001.jpg",
+          "DOW_SOLUTIONISM_002.jpg",
+          "DOW_SOLUTIONISM_003.jpg"
+        ],
         "videos": [
           {
             "url": "https://youtu.be/JyXmVikyp68",
@@ -359,7 +294,15 @@
       "aside": "Clients include: The Chicago Bears, Chicago White Sox, WMAQ News Radio, The Score Sports Radio, Fair Muffler, Allied Pickfords Van Lines, Leader Communications, Burke Homes, Thorspring Icelandic Spring Water, Hoffman Homes."
     }
   ],
-  "awards": ["Art Directors Club", "Communication Arts", "FWA", "Webby", "Ad-Tech", "ECHO", "Tempo"],
+  "awards": [
+    "Art Directors Club",
+    "Communication Arts",
+    "FWA",
+    "Webby",
+    "Ad-Tech",
+    "ECHO",
+    "Tempo"
+  ],
   "instructables": {
     "title": "Homemade BFO Metal Detector",
     "url": "https://www.instructables.com/Home-Made-BFO-metal-detector-ADDENDUM/",
