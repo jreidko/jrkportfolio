@@ -1,7 +1,7 @@
 {
   "name": "Jason Koerner",
   "title": "User Experience Design",
-  "description": "I’m a user experience designer with a recent focus on nutrition, commercial real estate, and healthcare products. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
+  "description": "I’m a user experience designer with a recent focus on nutrition, commercial real estate, and healthcare platforms. In previous roles I've lead digital marketing and design efforts for clients like Boeing, Kraft, and State Farm.",
   "projects": [
     {
       "client": "WISEcode",
@@ -358,6 +358,16 @@
       "title": "Ear Saver Curved",
       "url": "https://www.thingiverse.com/thing:4768676",
       "description": "'Ear Savers' hold the elastic ear bands away from your ears, relieving discomfort for some. This version is designed with no sharp edges and four different decorative patterns.<br /><br />A friend of ours in early childhood education has been working through the pandemic and wearing a mask most days all day. She asked if i could print her some ear savers for her and the other teachers, so i created these.<br /><br />These have printed really well in both PLA and TPU"
+    },
+    {
+      "title": "Crutch or Cane Holder",
+      "url": "https://www.thingiverse.com/thing:5780096",
+      "description": "I use an arm crutch that is oddly balanced and has a round shaft, which often causes it to slip and fall when leaned against an edge. To solve this problem, I created a small cantilevered hanger, similar to those available for purchase online. The design includes a finicky aspect in which the crutch rotates slightly around the cantilever and slides off the ledge it's perched on. To address this, I needed to use a high-friction pad on the bottom of the cantilever arm. I used Ninjaflex filament, which is flexible, but still had trouble with slippage. To solve this, I used a footpad that allowed for some deformation but still kept a flat profile. I achieved this by creating a 'grill' like surface with concentric walls as thin as 0.8mm, allowing the walls at different concentricities to deform and create additional friction. I have included two designs with examples of experiments I conducted. You may also find it helpful to simply look at the picture and create your own design."
+    },
+    {
+      "title": "Pocket Operator Trigger Donut Operator",
+      "url": "https://www.thingiverse.com/thing:5780116",
+      "description": "The Pocket Operator by Teenage Engineering is an excellent little sound machine. However, the buttons along the right side of the keypad are challenging to press when holding the PO with both hands and playing it with your thumbs. To solve this, I created a holder with leveraged switches that allow the buttons to be pressed using your fingers which are underneath when holding the Pocket Operator."
     }
   ]
 }
