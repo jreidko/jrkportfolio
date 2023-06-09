@@ -4,7 +4,7 @@
       <label
         class="block text-1xl text-semibold mb-4 max-w-screen-sm text-gray-400"
       >
-        To view the potfolio please enter the password
+        To view the portfolio please enter the password
       </label>
       <input
         type="text"
