@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!portAuth">
+    <div v-if="1 === 2">
       <label
         class="block text-1xl text-semibold mb-4 max-w-screen-sm text-gray-400"
       >
@@ -23,7 +23,7 @@
         Sorry that is not the password, please try again.
       </div>
     </div>
-    <div v-else>
+    <div>
       <div>
         <hr class="mb-4 opacity-20" />
         <div class="text-gray-400 font-normal mb-1">Retailer.Space</div>
