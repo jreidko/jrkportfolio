@@ -124,6 +124,7 @@ import jason from './assets/jason.json'
 export default {
   data() {
     return {
+      lastRun: 'aug 27 2023',
       portView: false,
       resumeView: false,
       jason: jason,
